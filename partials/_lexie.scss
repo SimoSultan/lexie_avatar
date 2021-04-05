@@ -1,0 +1,19 @@
+@import "variables.scss";
+
+.lexie {
+    width: 100%;
+    height: 100%;
+    
+    &__head {
+        top: -5%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 48.3%;
+        height: 59.3%;
+        background: $lexie-skin;
+        border-radius: 47% 47% 60% 60% / 51% 51% 54% 54%;
+        overflow: hidden;
+    }
+}
+
+

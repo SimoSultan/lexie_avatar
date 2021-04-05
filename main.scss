@@ -1,0 +1,51 @@
+@import "partials/lexie.scss";
+@import "partials/marble.scss";
+@import "partials/pearl.scss";
+
+body{
+    background: white;
+}
+
+.css-illustration *,
+.css-illustration *:after,
+.css-illustration *:before,
+.css-illustration:after,
+.css-illustration:before {
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    border: solid 4px white;
+    margin-top: 8%;
+    width: 1000px;
+    height: 1000px;
+    background: #CE8DBE;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+
+.layer1 {
+    z-index: 1;
+}
+.layer2 {
+    z-index: 2;
+}
+.layer3 {
+    z-index: 3;
+}
+.layer4 {
+    z-index: 4;
+}
+.layer5 {
+    z-index: 5;
+}
+.layer6 {
+    z-index: 6;
+}
+.layer7 {
+    z-index: 7;
+}
