@@ -21,30 +21,35 @@
 }
 
 .cat__head {
-  top: 50%;
+  top: 35%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 30%;
-  height: 30%;
+  width: 60%;
+  height: 40%;
   border-radius: 50%;
 }
 
-.cat__eyes-left {
-  left: 25%;
-}
-
-.cat__eyes-right {
-  left: 65%;
-}
-
-.cat__eyes {
-  width: 11%;
-  height: 10%;
-  border-radius: 50%;
+.cat__eyes-cont {
+  width: 100%;
+  height: 15%;
   top: 29%;
 }
 
-.cat__eyes-pupils {
+.cat__eyes-cont .cat-eye {
+  width: 11%;
+  height: 85%;
+  border-radius: 50%;
+}
+
+.cat__eyes-cont .cat-eye-left {
+  left: 25%;
+}
+
+.cat__eyes-cont .cat-eye-right {
+  left: 65%;
+}
+
+.cat__eyes-cont .cat-eye-pupil {
   height: 40%;
   width: 40%;
   border-radius: 50%;
@@ -54,32 +59,57 @@
           transform: translate(-50%);
 }
 
-.cat .whiskers-cont {
-  width: 30%;
+.cat__whiskers-cont {
+  width: 90%;
   height: 30%;
-  top: 50%;
+  top: 45%;
+  left: 5%;
 }
 
-.cat .whiskers-cont .whisker {
+.cat__whiskers-cont .cat-whisker-left {
+  width: 50%;
+  height: 100%;
+  right: 50%;
+}
+
+.cat__whiskers-cont .cat-whisker-right {
+  height: 100%;
+  width: 50%;
+  left: 50%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.cat__whiskers-cont .cat-whisker {
   height: 1px;
   width: 90%;
-  background-color: grey;
 }
 
-.cat .whiskers-cont .whisker .whisker-top {
-  top: 10%;
+.cat__whiskers-cont .whisker-top {
+  top: 25%;
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
 }
 
-.cat .whiskers-cont .whisker .whisker-middle {
-  top: 50%;
+.cat__whiskers-cont .whisker-middle {
+  top: 45%;
 }
 
-.cat .whiskers-cont .whisker .whisker-bottom {
-  top: 70%;
+.cat__whiskers-cont .whisker-bottom {
+  top: 68%;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
+}
+
+.marble {
+  top: 30%;
+  width: 50%;
+  left: 50%;
+  height: 70%;
 }
 
 .marble__head {
-  left: 75%;
+  left: 50%;
   background-color: black;
 }
 
@@ -91,8 +121,18 @@
   background-color: #522602;
 }
 
+.marble__whisker-color {
+  background-color: grey;
+}
+
+.pearl {
+  top: 30%;
+  width: 50%;
+  height: 70%;
+}
+
 .pearl__head {
-  left: 25%;
+  left: 50%;
   background-color: white;
 }
 
@@ -102,6 +142,10 @@
 
 .pearl__pupil-color {
   background-color: #522602;
+}
+
+.pearl__whisker-color {
+  background-color: grey;
 }
 
 body {

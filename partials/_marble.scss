@@ -1,9 +1,13 @@
 @import "./variables";
 
 .marble {
+    top: 30%;
+    width: 50%;
+    left: 50%;
+    height: 70%;
 
     &__head {
-        left: 75%;
+        left: 50%;
         background-color: $marble-fur;
     }
 
@@ -13,5 +17,9 @@
 
     &__pupil-color {
         background-color: $marble-pupil-color;
+    }
+
+    &__whisker-color {
+        background-color: $marble-whisker-color;
     }
 }

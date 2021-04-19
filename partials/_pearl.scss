@@ -1,9 +1,12 @@
 @import "./variables";
 
 .pearl {
+    top: 30%;
+    width: 50%;
+    height: 70%;
 
     &__head {
-        left: 25%;
+        left: 50%;
         background-color: $pearl-fur;
     }
 
@@ -13,6 +16,10 @@
 
     &__pupil-color {
         background-color: $pearl-pupil-color;
+    }
+
+    &__whisker-color {
+        background-color: $pearl-whisker-color;
     }
     
 }
