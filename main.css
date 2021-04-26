@@ -135,7 +135,38 @@
           transform: translate(-50%);
   top: 25%;
   border-radius: 50%;
-  background-color: #8d6c64;
+}
+
+.cat__ear-cont {
+  border: 1px solid yellow;
+  height: 30%;
+  width: 100%;
+  top: -20%;
+}
+
+.cat__ear-cont .cat-ear-outer-left {
+  left: 3%;
+  width: 35%;
+  height: 120%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.cat__ear-cont .cat-ear-outer-left .cat-inner-ear-left {
+  width: 90%;
+  height: 90%;
+}
+
+.cat__ear-cont .cat-ear-outer-right {
+  right: 3%;
+  width: 35%;
+  height: 120%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
 }
 
 .marble {
@@ -163,6 +194,18 @@
   background: linear-gradient(90deg, white 0%, lightgray 20%);
 }
 
+.marble__nose-colour {
+  background: #975f4c;
+}
+
+.marble__ear-outer-colour {
+  background: blue;
+}
+
+.marble__ear-inner-colour {
+  background: red;
+}
+
 .pearl {
   top: 30%;
   width: 50%;
@@ -185,6 +228,18 @@
 .pearl__whisker-color {
   background: -webkit-gradient(linear, left top, right top, from(white), color-stop(20%, lightgray));
   background: linear-gradient(90deg, white 0%, lightgray 20%);
+}
+
+.pearl__nose-colour {
+  background: #8d6c64;
+}
+
+.pearl__ear-outer-colour {
+  background: red;
+}
+
+.pearl__ear-inner-colour {
+  background: blue;
 }
 
 body {

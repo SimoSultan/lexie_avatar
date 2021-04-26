@@ -109,9 +109,46 @@
       left: 50%;
       transform: translate(-50%);
       top: 25%;
-    //   border-radius: $cat-nose-shape;
       border-radius: 50%;
-      background-color: $cat-nose-colour;
     }
+  }
+
+  &__ear-cont {
+      border: 1px solid yellow;
+      height: 30%;
+      width: 100%;
+      top: -20%;
+    //   left: 50%;
+    //   transform: translate(-50%);
+
+      .cat-ear-outer-left {
+          left: 3%;
+          width: 35%;
+          height: 120%;
+          clip-path: $cat-ear-shape;
+          transform: rotate(-15deg);
+
+          .cat-inner-ear-left {
+            width: 90%;
+            height: 90%;
+            // clip-path: $cat-ear-shape;
+          }
+      }
+
+
+      .cat-ear-outer-right {
+        right: 3%;
+        width: 35%;
+        height: 120%;
+        clip-path: $cat-ear-shape;
+        transform: rotate(15deg);
+    }
+
+    // .cat-inner-ear-right {
+    //   width: 50%;
+    //   height: 50%;
+    //   clip-path: $cat-ear-shape;
+    //   background: $pearl-inner-ear-colour
+    // }
   }
 }
