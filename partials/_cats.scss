@@ -6,47 +6,49 @@
   height: 100%;
 
   &__head {
-    top: 35%;
+    top: 38%;
     transform: translateX(-50%);
-    width: 60%;    
-    height: 40%;
-    border-radius: 50%;
+    width: 65%;    
+    height: 35%;
+    border-radius: $cat-head-shape;
   }
 
   &__eyes-cont {
     width: 100%;
     height: 15%;
-    top: 29%;
+    top: 32%;
     
     .cat-eye {
-      width: 11%;
-      height: 85%;
-      border-radius: 50%;
+      width: 13%;
+      height: 75%;
     }
     
     .cat-eye-left {
-      left: 25%;
+      left: 28%;
+      border-radius: $cat-eye-shape;
     }
 
     .cat-eye-right {
-      left: 65%;
+      left: 59%;
+      border-radius: $cat-eye-shape;
+      transform: scale(-1, 1);
     }
 
     .cat-eye-pupil {
-      height: 40%;
-      width: 40%;
+      height: 70%;
+      width: 25%;
       border-radius: 50%;
-      top: 30%;
+      top: 15%;
       left: 50%;
       transform: translate(-50%);
     }
   }
 
   &__whiskers-cont {
-    width: 90%;
+    width:110%;
     height: 30%;
     top: 45%;
-    left: 5%;
+    left: -5%;
 
     .cat-whisker-left {
       width: 50%;
@@ -63,66 +65,53 @@
     
     .cat-whisker {
       height: 1px;
-      width: 90%;
     }
-
+    
     .whisker-top {
-      top: 25%;
-      transform: rotate(8deg);
+        top: 25%;
+        transform: rotate(8deg);
+        width: 85%;
     }
-
-    // .whisker-top-middle {
-    //   top: 35%;
-    //   transform: rotate(4deg);
-    // }
+    
+    .whisker-top-middle {
+        top: 40%;
+        transform: rotate(2deg);
+        width: 82%;
+    }
 
     .whisker-middle {
       top: 45%;
+      width: 90%;
     }
 
-    // .whisker-bottom-middle {
-    //   top: 55%;
-    //   transform: rotate(-4deg);
-    // }
+    .whisker-bottom-middle {
+      top: 55%;
+      transform: rotate(-4deg);
+      width: 87%;
+    }
 
     .whisker-bottom {
       top: 68%;
       transform: rotate(-8deg);
+      width: 86%;
     }
   }
 
   &__nose-cont {
     width: 50%;
-    height: 30%;
+    height: 50%;
     left: 25%;
     top: 45%;
 
     .cat-nose {
       height: 10%;
-      width: 30%;
-      left: 35%;
-      top: 50%;
-      
-      .cat-nose-top {
-        background-color: brown;
-        width: 100%;
-        height: 10%;
-        transform: rotate(90deg);
-      }
-
-      .cat-nose-left {
-        background-color: brown;
-        width: 100%;
-        height: 10%;
-        transform: rotate(-225deg);
-      }
-
-      .cat-nose-right {
-        background-color: brown;
-        width: 100%;
-        height: 10%;
-        transform: rotate(45deg);
-      }
+      width: 15%;
+      left: 50%;
+      transform: translate(-50%);
+      top: 25%;
+    //   border-radius: $cat-nose-shape;
+      border-radius: 50%;
+      background-color: $cat-nose-colour;
     }
   }
 }

@@ -21,49 +21,52 @@
 }
 
 .cat__head {
-  top: 35%;
+  top: 38%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 60%;
-  height: 40%;
-  border-radius: 50%;
+  width: 65%;
+  height: 35%;
+  border-radius: 52% 48% 48% 52%/42% 42% 58% 58%;
 }
 
 .cat__eyes-cont {
   width: 100%;
   height: 15%;
-  top: 29%;
+  top: 32%;
 }
 
 .cat__eyes-cont .cat-eye {
-  width: 11%;
-  height: 85%;
-  border-radius: 50%;
+  width: 13%;
+  height: 75%;
 }
 
 .cat__eyes-cont .cat-eye-left {
-  left: 25%;
+  left: 28%;
+  border-radius: 40% 59% 25% 62%/27% 80% 16% 83%;
 }
 
 .cat__eyes-cont .cat-eye-right {
-  left: 65%;
+  left: 59%;
+  border-radius: 40% 59% 25% 62%/27% 80% 16% 83%;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
 }
 
 .cat__eyes-cont .cat-eye-pupil {
-  height: 40%;
-  width: 40%;
+  height: 70%;
+  width: 25%;
   border-radius: 50%;
-  top: 30%;
+  top: 15%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
 
 .cat__whiskers-cont {
-  width: 90%;
+  width: 110%;
   height: 30%;
   top: 45%;
-  left: 5%;
+  left: -5%;
 }
 
 .cat__whiskers-cont .cat-whisker-left {
@@ -82,61 +85,57 @@
 
 .cat__whiskers-cont .cat-whisker {
   height: 1px;
-  width: 90%;
 }
 
 .cat__whiskers-cont .whisker-top {
   top: 25%;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
+  width: 85%;
+}
+
+.cat__whiskers-cont .whisker-top-middle {
+  top: 40%;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  width: 82%;
 }
 
 .cat__whiskers-cont .whisker-middle {
   top: 45%;
+  width: 90%;
+}
+
+.cat__whiskers-cont .whisker-bottom-middle {
+  top: 55%;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
+  width: 87%;
 }
 
 .cat__whiskers-cont .whisker-bottom {
   top: 68%;
   -webkit-transform: rotate(-8deg);
           transform: rotate(-8deg);
+  width: 86%;
 }
 
 .cat__nose-cont {
   width: 50%;
-  height: 30%;
+  height: 50%;
   left: 25%;
   top: 45%;
 }
 
 .cat__nose-cont .cat-nose {
   height: 10%;
-  width: 30%;
-  left: 35%;
-  top: 50%;
-}
-
-.cat__nose-cont .cat-nose .cat-nose-top {
-  background-color: brown;
-  width: 100%;
-  height: 10%;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-.cat__nose-cont .cat-nose .cat-nose-left {
-  background-color: brown;
-  width: 100%;
-  height: 10%;
-  -webkit-transform: rotate(-225deg);
-          transform: rotate(-225deg);
-}
-
-.cat__nose-cont .cat-nose .cat-nose-right {
-  background-color: brown;
-  width: 100%;
-  height: 10%;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  width: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 25%;
+  border-radius: 50%;
+  background-color: #8d6c64;
 }
 
 .marble {
@@ -152,15 +151,16 @@
 }
 
 .marble__eye-color {
-  background-color: #d15f3c;
+  background-color: #67633d;
 }
 
 .marble__pupil-color {
-  background-color: #522602;
+  background-color: #0c0a16;
 }
 
 .marble__whisker-color {
-  background-color: grey;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(20%, lightgray));
+  background: linear-gradient(90deg, white 0%, lightgray 20%);
 }
 
 .pearl {
@@ -175,15 +175,16 @@
 }
 
 .pearl__eye-color {
-  background-color: #d15f3c;
+  background-color: #958466;
 }
 
 .pearl__pupil-color {
-  background-color: #522602;
+  background-color: #15151e;
 }
 
 .pearl__whisker-color {
-  background-color: grey;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(20%, lightgray));
+  background: linear-gradient(90deg, white 0%, lightgray 20%);
 }
 
 body {
