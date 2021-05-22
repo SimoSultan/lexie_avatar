@@ -1,13 +1,16 @@
 @import "./variables";
 
 .pearl {
-    top: 30%;
+    top: 33%;
     width: 50%;
     height: 70%;
 
+    .fur-color {
+        background-color: $pearl-fur;
+    }
+
     &__head {
         left: 50%;
-        background-color: $pearl-fur;
     }
 
     &__eye-color {
@@ -22,16 +25,19 @@
         background: $pearl-whisker-color;
     }
 
-    &__nose-colour {
-        background: $pearl-nose-colour;
+    &__nose-color {
+        background: $pearl-nose-color;
     }
 
-    &__ear-outer-colour {
-        background: $pearl-ear-outer-colour;
+    &__ear-outer-color {
+        background: $pearl-ear-outer-color;
     }
 
-    &__ear-inner-colour {
-        background: $pearl-ear-inner-colour;
+    &__ear-inner-color {
+        background: $pearl-ear-inner-color;
     }
-    
+
+    &__mouth-color {
+        background: $pearl-mouth-color;
+    }
 }

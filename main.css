@@ -18,14 +18,15 @@
 .cat {
   width: 100%;
   height: 100%;
+  border: 2px solid blue;
 }
 
 .cat__head {
   top: 38%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 65%;
-  height: 35%;
+  width: 61%;
+  height: 37%;
   border-radius: 52% 48% 48% 52%/42% 42% 58% 58%;
 }
 
@@ -91,7 +92,8 @@
   top: 25%;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
-  width: 85%;
+  width: 80%;
+  left: -2%;
 }
 
 .cat__whiskers-cont .whisker-top-middle {
@@ -99,18 +101,21 @@
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
   width: 82%;
+  left: -8%;
 }
 
 .cat__whiskers-cont .whisker-middle {
   top: 45%;
   width: 90%;
+  left: -1%;
 }
 
 .cat__whiskers-cont .whisker-bottom-middle {
   top: 55%;
   -webkit-transform: rotate(-4deg);
           transform: rotate(-4deg);
-  width: 87%;
+  width: 88%;
+  left: -7%;
 }
 
 .cat__whiskers-cont .whisker-bottom {
@@ -118,6 +123,7 @@
   -webkit-transform: rotate(-8deg);
           transform: rotate(-8deg);
   width: 86%;
+  left: -9%;
 }
 
 .cat__nose-cont {
@@ -138,47 +144,91 @@
 }
 
 .cat__ear-cont {
-  border: 1px solid yellow;
-  height: 30%;
+  height: 40%;
   width: 100%;
-  top: -20%;
+  top: -28%;
 }
 
 .cat__ear-cont .cat-ear-outer-left {
-  left: 3%;
-  width: 35%;
-  height: 120%;
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  -webkit-transform: rotate(-15deg);
-          transform: rotate(-15deg);
+  left: -8%;
+  width: 40%;
+  height: 132%;
+  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+  -webkit-transform: rotate(-22deg);
+          transform: rotate(-22deg);
+  border-radius: 50px;
 }
 
-.cat__ear-cont .cat-ear-outer-left .cat-inner-ear-left {
+.cat__ear-cont .cat-ear-outer-left .cat-ear-inner {
   width: 90%;
   height: 90%;
+  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 20%;
 }
 
 .cat__ear-cont .cat-ear-outer-right {
-  right: 3%;
-  width: 35%;
-  height: 120%;
-  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  -webkit-transform: rotate(15deg);
-          transform: rotate(15deg);
+  right: -5%;
+  width: 40%;
+  height: 132%;
+  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  border-radius: 50px;
+}
+
+.cat__ear-cont .cat-ear-inner {
+  width: 90%;
+  height: 93%;
+  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+  border-radius: 50px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 15%;
+}
+
+.cat__ear-cont .cat-ear-inner .cat-ear-inner-blend {
+  width: 90%;
+  height: 90%;
+  top: 78px;
+  border-radius: 37px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.cat__mouth-cont {
+  width: 30%;
+  height: 10%;
+  border: 1px solid red;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .marble {
-  top: 30%;
+  top: 33%;
   width: 50%;
   left: 50%;
   height: 70%;
 }
 
+.marble .fur-color {
+  background-color: black;
+}
+
 .marble__head {
   left: 50%;
-  background-color: black;
 }
 
 .marble__eye-color {
@@ -194,27 +244,34 @@
   background: linear-gradient(90deg, white 0%, lightgray 20%);
 }
 
-.marble__nose-colour {
+.marble__nose-color {
   background: #975f4c;
 }
 
-.marble__ear-outer-colour {
-  background: blue;
+.marble__ear-outer-color {
+  background: #080808;
 }
 
-.marble__ear-inner-colour {
+.marble__ear-inner-color {
+  background: #111111;
+}
+
+.marble__mouth-color {
   background: red;
 }
 
 .pearl {
-  top: 30%;
+  top: 33%;
   width: 50%;
   height: 70%;
 }
 
+.pearl .fur-color {
+  background-color: white;
+}
+
 .pearl__head {
   left: 50%;
-  background-color: white;
 }
 
 .pearl__eye-color {
@@ -230,16 +287,20 @@
   background: linear-gradient(90deg, white 0%, lightgray 20%);
 }
 
-.pearl__nose-colour {
+.pearl__nose-color {
   background: #8d6c64;
 }
 
-.pearl__ear-outer-colour {
-  background: red;
+.pearl__ear-outer-color {
+  background: #f8f8f8;
 }
 
-.pearl__ear-inner-colour {
-  background: blue;
+.pearl__ear-inner-color {
+  background: #f3f3f3;
+}
+
+.pearl__mouth-color {
+  background: red;
 }
 
 body {

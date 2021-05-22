@@ -6,30 +6,33 @@ $lexie-skin: #e7cdb0;
 $cat-eye-color: rgb(209, 95, 60);
 $cat-pupil-color: rgb(82, 38, 2);
 $cat-whisker-color: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(211,211,211,1) 20%);
-// $cat-whisker-color: lightgrey;
 $cat-head-shape: 52% 48% 48% 52% / 42% 42% 58% 58%;
+$cat-eye-color: #67633d;
 $cat-eye-shape: 40% 59% 25% 62% / 27% 80% 16% 83%;
-$cat-nose-colour: #8d6c64;
+$cat-nose-color: #8d6c64;
 $cat-nose-shape: 5% 6% 50% 50% / 5% 7% 93% 93%;
-$cat-ear-shape: polygon(50% 0%, 0% 100%, 100% 100%);
+$cat-ear-shape: polygon(50% 0%, 8% 100%, 92% 100%);
+$cat-mouth-color: red;
 
 
 // MARBLE
 $marble-fur: black;
-$marble-eye-color: #67633d;
+$marble-eye-color: $cat-eye-color;
 $marble-pupil-color: #0c0a16;
 $marble-whisker-color: $cat-whisker-color;
-$marble-nose-colour: #975f4c;
-$marble-ear-outer-colour: blue;
-$marble-ear-inner-colour: red;
+$marble-nose-color: #975f4c;
+$marble-ear-outer-color: #080808;
+$marble-ear-inner-color: #111111;
+$marble-mouth-color: $cat-mouth-color;
 
 
 // PEARL
 $pearl-fur: white;
-// $pearl-eye-color: $cat-eye-color;
+$pearl-eye-color: $cat-eye-color;
 $pearl-eye-color: #958466;
 $pearl-pupil-color: #15151e;
 $pearl-whisker-color: $cat-whisker-color;
-$pearl-nose-colour: #8d6c64;
-$pearl-ear-outer-colour: red;
-$pearl-ear-inner-colour: blue;
+$pearl-nose-color: #8d6c64;
+$pearl-ear-outer-color: #f8f8f8;
+$pearl-ear-inner-color: #f3f3f3;
+$pearl-mouth-color: $cat-mouth-color;

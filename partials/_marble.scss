@@ -1,14 +1,17 @@
 @import "variables.scss";
 
 .marble {
-    top: 30%;
+    top: 33%;
     width: 50%;
     left: 50%;
     height: 70%;
 
+    .fur-color {
+        background-color: $marble-fur;
+    }
+
     &__head {
         left: 50%;
-        background-color: $marble-fur;
     }
 
     &__eye-color {
@@ -23,15 +26,19 @@
         background: $marble-whisker-color;
     }
 
-    &__nose-colour {
-        background: $marble-nose-colour;
+    &__nose-color {
+        background: $marble-nose-color;
     }
 
-    &__ear-outer-colour {
-        background: $marble-ear-outer-colour;
+    &__ear-outer-color {
+        background: $marble-ear-outer-color;
     }
 
-    &__ear-inner-colour {
-        background: $marble-ear-inner-colour;
+    &__ear-inner-color {
+        background: $marble-ear-inner-color;
+    }
+
+    &__mouth-color {
+        background: $marble-mouth-color;
     }
 }
