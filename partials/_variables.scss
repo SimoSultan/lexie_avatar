@@ -12,7 +12,9 @@ $cat-eye-shape: 40% 59% 25% 62% / 27% 80% 16% 83%;
 $cat-nose-color: #8d6c64;
 $cat-nose-shape: 5% 6% 50% 50% / 5% 7% 93% 93%;
 $cat-ear-shape: polygon(50% 0%, 8% 100%, 92% 100%);
-$cat-mouth-color: red;
+$cat-mouth-color: rgb(245, 119, 119);
+$cat-mouth-shape: polygon(50% 0%, 8% 100%, 92% 100%);
+$cat-nose-mouth-joiner: #8d6c64;
 
 
 // MARBLE

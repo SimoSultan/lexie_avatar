@@ -4,7 +4,6 @@
 .cat {
   width: 100%;
   height: 100%;
-  border: 2px solid blue;
 
   // head
 
@@ -112,18 +111,51 @@
     // nose
 
     &__nose-cont {
-        width: 50%;
-        height: 50%;
-        left: 25%;
+        width: 20%;
+        height: 20%;
+        left: 50%;
+        transform: translate(-50%);
         top: 45%;
 
         .cat-nose {
-            height: 10%;
-            width: 15%;
+            height: 30%;
+            width: 50%;
             left: 50%;
             transform: translate(-50%);
-            top: 25%;
+            top: 50%;
             border-radius: 50%;
+
+            &:after {
+                content: '';
+                width: 3px;
+                height: 80%;
+                background-color: red;
+                left: 50%;
+                transform: translate(-50%);
+                top: 100%;
+                background-color: $cat-nose-mouth-joiner;
+            }
+        }
+    }
+
+
+    // mouth
+
+    &__mouth-cont {
+        width: 30%;
+        height: 10%;
+        // border: 1px solid red;
+        top: 64%;
+        left: 50%;
+        transform: translate(-50%);
+
+        .cat-mouth {
+            width: 100%;
+            height: 30%;
+            left: 50%;
+            top: 20%;
+            transform: translate(-50%);
+            clip-path: $cat-mouth-shape;
         }
     }
 
@@ -183,16 +215,4 @@
         }
     }
 
-    // mouth
-
-    &__mouth-cont {
-        width: 30%;
-        height: 10%;
-        border: 1px solid red;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%);
-
-        
-    }
 }

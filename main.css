@@ -18,7 +18,6 @@
 .cat {
   width: 100%;
   height: 100%;
-  border: 2px solid blue;
 }
 
 .cat__head {
@@ -127,20 +126,54 @@
 }
 
 .cat__nose-cont {
-  width: 50%;
-  height: 50%;
-  left: 25%;
+  width: 20%;
+  height: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   top: 45%;
 }
 
 .cat__nose-cont .cat-nose {
-  height: 10%;
-  width: 15%;
+  height: 30%;
+  width: 50%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  top: 25%;
+  top: 50%;
   border-radius: 50%;
+}
+
+.cat__nose-cont .cat-nose:after {
+  content: '';
+  width: 3px;
+  height: 80%;
+  background-color: red;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 100%;
+  background-color: #8d6c64;
+}
+
+.cat__mouth-cont {
+  width: 30%;
+  height: 10%;
+  top: 64%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.cat__mouth-cont .cat-mouth {
+  width: 100%;
+  height: 30%;
+  left: 50%;
+  top: 20%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
 }
 
 .cat__ear-cont {
@@ -206,16 +239,6 @@
           transform: translate(-50%);
 }
 
-.cat__mouth-cont {
-  width: 30%;
-  height: 10%;
-  border: 1px solid red;
-  top: 65%;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-}
-
 .marble {
   top: 33%;
   width: 50%;
@@ -257,7 +280,7 @@
 }
 
 .marble__mouth-color {
-  background: red;
+  background: #f57777;
 }
 
 .pearl {
@@ -300,7 +323,7 @@
 }
 
 .pearl__mouth-color {
-  background: red;
+  background: #f57777;
 }
 
 body {
