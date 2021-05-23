@@ -41,10 +41,106 @@
             top: 3%;
             left: 50%;
             transform: translate(-50%);
-          }
+        }
           
     }
 
+    &__nose {
+        width: 18.5%;
+        height: 5.5%;
+        position: absolute;
+        top: 56%;
+        background-color: $lexie-nose-color;
+        border-radius: 0px 0px 70px 70px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    &__mouth {
+
+    }
+
+    // .mouth-area {
+    //     bottom: -2%;
+    //     background: #e7cdb0;
+    //     border-radius: 26px;
+    //     left: 27%;
+    //     width: 46%;
+    //     height: 23%;
+    //     border: none;
+    //   }
+    //   .mouth {
+    //     width: 200px;
+    //     height: 100px;
+    //     position: absolute;
+    //     top: 6%;
+    //     background-color: #434330;
+    //     border-radius: 25px 25px 200px 200px;
+    //     left: 4%;
+    //     overflow: hidden;
+      
+    //   }
+      
+    //   .mouth::after {
+    //     width: 70%;
+    //     height: 40%;
+    //     background-color: #ED4A69;
+    //     content: '';
+    //     position: absolute;
+    //     bottom: 0%;
+    //     left: 16%;
+    //     border-radius: 40% 40% 40% 40%;
+    //   }
+      
+    //   .mouth::before {
+    //     width: 81%;
+    //     height: 25%;
+    //     background-color: white;
+    //     content: '';
+    //     position: absolute;
+    //     top: 0%;
+    //     left: 10%;
+    //     border-radius: 0px 0px 40px 40px;
+    //   }
+
+    // .ear-left{
+    //     Position: absolute;
+    //     width: 10%;
+    //     height: 15%;
+    //     left: 21%;
+    //     top: 15%;
+    //     background: #e7cdb0;
+    //     border-radius: 37% 58% 30% 70% / 26% 55% 0% 71%;
+    //   }
+    //   .ear-right{
+    //     position: absolute;
+    //     width: 10%;
+    //     height: 15%;
+    //     right: 21.5%;
+    //     top: 15%;
+    //     background: #e7cdb0;
+    //     border-radius: 58% 37% 70% 30% / 55% 26% 71% 0%;
+    //   }
+      
+    //   .inner-ear-left{
+    //     position: absolute;
+    //     border-radius: 37% 58% 30% 70% / 26% 55% 0% 71%;
+    //     width: 54%;
+    //     height: 70%;
+    //     top: 11%;
+    //     left: 22%;
+    //     background: #ceb79b;
+    //   }
+      
+    //   .inner-ear-right{
+    //     position: absolute;
+    //     border-radius: 58% 37% 70% 30% / 55% 26% 71% 0%;
+    //     width: 54%;
+    //     height: 70%;
+    //     top: 11%;
+    //     left: 22%;
+    //     background: #ceb79b;
+    //   }
 
 }
 

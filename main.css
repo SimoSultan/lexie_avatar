@@ -48,6 +48,18 @@
           transform: translate(-50%);
 }
 
+.lexie__nose {
+  width: 18.5%;
+  height: 5.5%;
+  position: absolute;
+  top: 56%;
+  background-color: #D6B896;
+  border-radius: 0px 0px 70px 70px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
 .cat {
   width: 100%;
   height: 100%;
@@ -58,7 +70,7 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 60%;
-  height: 35%;
+  height: 37%;
   border-radius: 52% 48% 48% 52%/42% 42% 58% 58%;
 }
 
@@ -239,6 +251,10 @@
   top: 20%;
 }
 
+.cat__ear-cont .cat-ear-outer-left .cat-ear-inner .cat-ear-inner-blend {
+  border-radius: 48px 32px;
+}
+
 .cat__ear-cont .cat-ear-outer-right {
   right: -5%;
   width: 40%;
@@ -250,7 +266,7 @@
   border-radius: 50px;
 }
 
-.cat__ear-cont .cat-ear-inner {
+.cat__ear-cont .cat-ear-outer-right .cat-ear-inner {
   width: 90%;
   height: 93%;
   -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
@@ -262,11 +278,14 @@
   top: 15%;
 }
 
-.cat__ear-cont .cat-ear-inner .cat-ear-inner-blend {
+.cat__ear-cont .cat-ear-outer-right .cat-ear-inner .cat-ear-inner-blend {
+  border-radius: 22px 43px;
+}
+
+.cat__ear-cont .cat-ear-inner-blend {
   width: 90%;
   height: 90%;
   top: 78px;
-  border-radius: 37px;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);

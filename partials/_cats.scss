@@ -11,7 +11,7 @@
     top: 38%;
     transform: translateX(-50%);
     width: 60%;    
-    height: 35%;
+    height: 37%;
     border-radius: $cat-head-shape;
   }
 
@@ -183,6 +183,10 @@
                 left: 50%;
                 transform: translate(-50%);
                 top: 20%;
+
+                .cat-ear-inner-blend {
+                    border-radius: $cat-ear-inner-blend-left;
+                }
             }
         }
 
@@ -193,25 +197,28 @@
             clip-path: $cat-ear-shape;
             transform: rotate(20deg);
             border-radius: 50px;
-        }
-
-        .cat-ear-inner {
-            width: 90%;
-            height: 93%;
-            clip-path: $cat-ear-shape;
-            border-radius: 50px;
-            left: 50%;
-            transform: translate(-50%);
-            top: 15%;
-
-            .cat-ear-inner-blend {
+            
+            .cat-ear-inner {
                 width: 90%;
-                height: 90%;
-                top: 78px;
-                border-radius: 37px;
+                height: 93%;
+                clip-path: $cat-ear-shape;
+                border-radius: 50px;
                 left: 50%;
                 transform: translate(-50%);
+                top: 15%;
+                
+                .cat-ear-inner-blend {
+                    border-radius: $cat-ear-inner-blend-right;
+                }
             }
+        }
+        
+        .cat-ear-inner-blend {
+            width: 90%;
+            height: 90%;
+            top: 78px;
+            left: 50%;
+            transform: translate(-50%);
         }
     }
 
