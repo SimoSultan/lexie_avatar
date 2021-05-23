@@ -57,16 +57,16 @@
         left: -5%;
 
         .cat-whisker-left {
-        width: 50%;
-        height: 100%;
-        right: 50%;
+            width: 50%;
+            height: 100%;
+            right: 50%;
         }
 
         .cat-whisker-right {
-        height: 100%;
-        width: 50%;
-        left: 50%;
-        transform: rotateY(180deg);
+            height: 100%;
+            width: 50%;
+            left: 50%;
+            transform: rotateY(180deg);
         }
         
         .cat-whisker {
@@ -144,7 +144,6 @@
     &__mouth-cont {
         width: 30%;
         height: 10%;
-        // border: 1px solid red;
         top: 64%;
         left: 50%;
         transform: translate(-50%);
@@ -212,7 +211,7 @@
                 }
             }
         }
-        
+
         .cat-ear-inner-blend {
             width: 90%;
             height: 90%;
