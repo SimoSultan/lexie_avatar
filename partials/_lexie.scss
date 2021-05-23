@@ -32,24 +32,6 @@
             left: 50%;
             overflow: hidden;
             border-bottom: $lexie-shirt-trim;
-
-            &::before {
-                content: '';
-                bottom: 0;
-                left: -1px;
-                height: 46%;
-                background-color: $lexie-shirt-trim-color;
-                width: $lexie-shirt-trim-width;
-            }
-            &::after {
-                content: '';
-                bottom: 0;
-                right: -1px;
-                height: 46%;
-                background-color: $lexie-shirt-trim-color;
-                width: $lexie-shirt-trim-width;
-            }
-
         }
         
         .neck-shadow {
@@ -176,6 +158,30 @@
             border: $lexie-shirt-trim;
         }
     }
+
+    &__hair-outside-cont {
+        width: 85%;
+        height: 110%;
+        left: 50%;
+        transform: translate(-50%);
+        top: -7%;
+
+        .hair-outside {
+            width: 90%;
+            height: 100%;
+            border-radius: $lexie-hair-outside-top-shape;
+            left: 50%;
+            transform: translate(-50%);
+            background-color: $lexie-hair-color-dark;
+            clip-path: $lexie-hair-outside-bottom-shape;
+        }
+    }
+
+    // &__hair-inside-cont {
+    //     .hair-inside {
+
+    //     }
+    // }
 }
 
 

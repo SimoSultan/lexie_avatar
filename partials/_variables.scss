@@ -20,6 +20,10 @@ $lexie-shirt-color: pink;
 $lexie-shirt-trim-width: 3px;
 $lexie-shirt-trim-color: white;
 $lexie-shirt-trim: $lexie-shirt-trim-width solid $lexie-shirt-trim-color;
+$lexie-hair-color-dark: brown;
+$lexie-hair-color-light: brown;
+$lexie-hair-outside-top-shape: 40% 40% 0 0;
+$lexie-hair-outside-bottom-shape: polygon(0 0, 100% 0, 100% 100%, 58% 100%, 61% 63%, 39% 63%, 43% 100%, 0 100%);
 
 // CATS
 $cat-eye-color: rgb(209, 95, 60);
