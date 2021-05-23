@@ -31,16 +31,34 @@
             transform: translate(-50%);
             left: 50%;
             overflow: hidden;
-        }
+            border-bottom: $lexie-shirt-trim;
 
+            &::before {
+                content: '';
+                bottom: 0;
+                left: -1px;
+                height: 46%;
+                background-color: $lexie-shirt-trim-color;
+                width: $lexie-shirt-trim-width;
+            }
+            &::after {
+                content: '';
+                bottom: 0;
+                right: -1px;
+                height: 46%;
+                background-color: $lexie-shirt-trim-color;
+                width: $lexie-shirt-trim-width;
+            }
+
+        }
+        
         .neck-shadow {
             height: 37%;
             width: 100%;
             border-radius: $lexie-neck-shadow-shape;
             background-color: $lexie-neck-shadow-color;
             top: 3%;
-            left: 50%;
-            transform: translate(-50%);
+            // right: 0px;
         }
           
     }
@@ -131,50 +149,25 @@
                 border-radius: $lexie-ear-shape;
             }
         }
-
     }
 
+    &__body-cont {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
 
-
-    // .ear-left{
-    //     Position: absolute;
-    //     width: 10%;
-    //     height: 15%;
-    //     left: 21%;
-    //     top: 15%;
-    //     background: #e7cdb0;
-    //     border-radius: 37% 58% 30% 70% / 26% 55% 0% 71%;
-    //   }
-    //   .ear-right{
-    //     position: absolute;
-    //     width: 10%;
-    //     height: 15%;
-    //     right: 21.5%;
-    //     top: 15%;
-    //     background: #e7cdb0;
-    //     border-radius: 58% 37% 70% 30% / 55% 26% 71% 0%;
-    //   }
-      
-    //   .inner-ear-left{
-    //     position: absolute;
-    //     border-radius: 37% 58% 30% 70% / 26% 55% 0% 71%;
-    //     width: 54%;
-    //     height: 70%;
-    //     top: 11%;
-    //     left: 22%;
-    //     background: #ceb79b;
-    //   }
-      
-    //   .inner-ear-right{
-    //     position: absolute;
-    //     border-radius: 58% 37% 70% 30% / 55% 26% 71% 0%;
-    //     width: 54%;
-    //     height: 70%;
-    //     top: 11%;
-    //     left: 22%;
-    //     background: #ceb79b;
-    //   }
-
+        .shirt {
+            width: 90%;
+            height: 45%;
+            border-radius: $lexie-body-shape;
+            background-color: $lexie-shirt-color;
+            top: 59%;
+            left: 50%;
+            transform: translate(-50%);
+            border: $lexie-shirt-trim;
+        }
+    }
 }
 
 

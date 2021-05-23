@@ -15,7 +15,11 @@ $lexie-teeth-shape: 0px 0px 40px 40px;
 $lexie-ear-shape: 37% 58% 30% 70% / 26% 55% 0% 71%;
 $lexie-ear-outer-color: #e7cdb0;
 $lexie-ear-inner-color: #ceb79b;
-
+$lexie-body-shape: 50% 50% 50% 50% / 34% 34% 0% 0%;
+$lexie-shirt-color: pink;
+$lexie-shirt-trim-width: 3px;
+$lexie-shirt-trim-color: white;
+$lexie-shirt-trim: $lexie-shirt-trim-width solid $lexie-shirt-trim-color;
 
 // CATS
 $cat-eye-color: rgb(209, 95, 60);
