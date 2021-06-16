@@ -176,6 +176,8 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   top: -7%;
+  border: 1px solid red;
+  overflow: visible;
 }
 
 .lexie__hair-outside-cont .hair-outside {
@@ -188,6 +190,43 @@
   background-color: brown;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 58% 100%, 61.5% 61%, 39% 63%, 43% 100%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 58% 100%, 61.5% 61%, 39% 63%, 43% 100%, 0 100%);
+  overflow: visible;
+}
+
+.lexie__hair-outside-cont .hair-outside-curl-sm {
+  width: 75px;
+  height: 75px;
+  top: 70px;
+  left: 100px;
+  border-radius: 50%;
+  background-color: brown;
+  -webkit-box-shadow: 3px 3px #803434;
+          box-shadow: 3px 3px #803434;
+  rotate: 150deg;
+}
+
+.lexie__hair-outside-cont .hair-outside-curl-md {
+  width: 125px;
+  height: 125px;
+  top: 100px;
+  left: 50px;
+  border-radius: 50%;
+  background-color: brown;
+  -webkit-box-shadow: 5px 5px #803434;
+          box-shadow: 5px 5px #803434;
+  rotate: 120deg;
+}
+
+.lexie__hair-outside-cont .hair-outside-curl-lg {
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+  border-radius: 50%;
+  background-color: brown;
+  -webkit-box-shadow: 7px 7px #803434;
+          box-shadow: 7px 7px #803434;
+  rotate: 120deg;
 }
 
 .cat {

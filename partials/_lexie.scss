@@ -165,6 +165,8 @@
         left: 50%;
         transform: translate(-50%);
         top: -7%;
+        border: 1px solid red;
+        overflow: visible;
 
         .hair-outside {
             width: 90%;
@@ -174,6 +176,43 @@
             transform: translate(-50%);
             background-color: $lexie-hair-color-dark;
             clip-path: $lexie-hair-outside-bottom-shape;
+            overflow: visible;
+
+
+        }
+
+        .hair-outside-curl-sm {
+            width: 75px;
+            height: 75px;
+            top: 70px;
+            left: 100px;
+            border-radius: 50%;
+            background-color: $lexie-hair-color-dark;
+            box-shadow: 3px 3px $lexie-hair-outside-curl-color-dark;
+            rotate: 150deg;
+        }
+
+        .hair-outside-curl-md {
+            width: 125px;
+            height: 125px;
+            top: 100px;
+            left: 50px;
+            border-radius: 50%;
+            background-color: $lexie-hair-color-dark;
+            box-shadow: 5px 5px $lexie-hair-outside-curl-color-dark;
+            rotate: 120deg;
+        }
+
+
+        .hair-outside-curl-lg {
+            width: 200px;
+            height: 200px;
+            top: 100px;
+            left: 100px;
+            border-radius: 50%;
+            background-color: $lexie-hair-color-dark;
+            box-shadow: 7px 7px $lexie-hair-outside-curl-color-dark;
+            rotate: 120deg;
         }
     }
 
