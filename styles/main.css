@@ -198,8 +198,8 @@
 .lexie__body-cont .shirt-neck-necklace {
   border: 3px solid #f8f8f8;
   border-radius: 48%;
-  width: 61%;
-  height: 200%;
+  width: 58%;
+  height: 220%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -437,6 +437,16 @@
           transform: translate(-50%);
 }
 
+.cat__body {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
 .marble {
   top: 33%;
   width: 50%;
@@ -445,7 +455,11 @@
 }
 
 .marble .fur-color {
-  background-color: black;
+  background-color: #0e0e0e;
+}
+
+.marble .fur-color-alt {
+  background-color: #131313;
 }
 
 .marble__head {
@@ -488,7 +502,11 @@
 }
 
 .pearl .fur-color {
-  background-color: white;
+  background-color: #f1f1f1;
+}
+
+.pearl .fur-color-alt {
+  background-color: #ececec;
 }
 
 .pearl__head {
