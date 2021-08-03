@@ -264,10 +264,12 @@
             &.marble__body {
                 background-color: $marble-fur-alt;
                 left: 61%;
+                border: 2px solid $marble-fur-border;
             }
             &.pearl__body {
                 background-color: $pearl-fur-alt;
                 left: -2%;
+                border: 2px solid $pearl-fur-border;
                 
                 .fur-color-secondary {
                     width: 55%;

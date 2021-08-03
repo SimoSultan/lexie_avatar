@@ -279,11 +279,13 @@
 .lexie .cat__body-cont .cat__body.marble__body {
   background-color: #131313;
   left: 61%;
+  border: 2px solid black;
 }
 
 .lexie .cat__body-cont .cat__body.pearl__body {
   background-color: #ececec;
   left: -2%;
+  border: 2px solid white;
 }
 
 .lexie .cat__body-cont .cat__body.pearl__body .fur-color-secondary {
@@ -554,6 +556,7 @@
 
 .marble__head {
   left: 50%;
+  border: 2px solid black;
 }
 
 .marble__eye-color {
@@ -597,6 +600,7 @@
 
 .pearl__head {
   left: 50%;
+  border: 2px solid white;
 }
 
 .pearl__eye-color {
