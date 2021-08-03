@@ -212,8 +212,8 @@
 }
 
 .lexie .cat__body-cont .cat__body {
-  width: 41%;
-  height: 31%;
+  width: 40%;
+  height: 33%;
   border-radius: 50%;
   top: 65%;
   overflow: hidden;
@@ -225,9 +225,19 @@
   border: 2px solid black;
 }
 
+.lexie .cat__body-cont .cat__body.marble__body .fur-color-head-bottom {
+  width: 30%;
+  height: 70%;
+  border-radius: 50%;
+  left: 18%;
+  top: 45%;
+  background: #a17557;
+  background: radial-gradient(circle, #fffdfb 3%, rgba(20, 20, 20, 0.8) 50%);
+}
+
 .lexie .cat__body-cont .cat__body.pearl__body {
   background-color: #ececec;
-  left: -2%;
+  left: -1%;
   border: 2px solid white;
 }
 
@@ -256,7 +266,7 @@
   height: 40%;
   border-radius: 50%;
   right: 22%;
-  top: 75%;
+  top: 70%;
   background: #a17557;
   background: radial-gradient(circle, #63432e 3%, #8d6245 10%, rgba(236, 236, 236, 0.8) 50%);
 }

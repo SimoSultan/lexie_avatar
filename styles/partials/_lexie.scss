@@ -208,8 +208,8 @@
         height: 100%;
 
         .cat__body {
-            width: 41%;
-            height: 31%;
+            width: 40%;
+            height: 33%;
             border-radius: 50%;
             top: 65%;
             overflow: hidden;
@@ -218,10 +218,20 @@
                 background-color: $marble-fur-alt;
                 left: 61%;
                 border: 2px solid $marble-fur-border;
+                .fur-color-head-bottom {
+                    width: 30%;
+                    height: 70%;
+                    border-radius: 50%;
+                    left: 18%;
+                    top: 45%;
+                    background: rgb(161,117,87);
+                    background: radial-gradient(circle, rgb(255, 253, 251) 3%, rgba(20, 20, 20, 0.8) 50%);
+                }
             }
+
             &.pearl__body {
                 background-color: $pearl-fur-alt;
-                left: -2%;
+                left: -1%;
                 border: 2px solid $pearl-fur-border;
                 
                 .fur-color-body-top {
@@ -249,7 +259,7 @@
                     height: 40%;
                     border-radius: 50%;
                     right: 22%;
-                    top: 75%;
+                    top: 70%;
                     background: rgb(161,117,87);
                     background: radial-gradient(circle, rgb(99, 67, 46) 3%, rgb(141, 98, 69) 10%, rgba(236, 236, 236, 0.8) 50%);
                 }
