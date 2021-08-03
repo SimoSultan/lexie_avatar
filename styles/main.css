@@ -206,19 +206,81 @@
   top: -60%;
 }
 
-.lexie .cat__body {
+.lexie__hands-cont {
+  width: 100%;
+  height: 10%;
+  bottom: 5%;
+}
+
+.lexie__hands-cont .hand {
+  width: 50%;
+  height: 100%;
+  left: 0;
+}
+
+.lexie__hands-cont .hand.left-hand {
+  left: 50%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.lexie__hands-cont .hand .finger {
+  width: 10%;
+  height: 90%;
+  border-radius: 50%;
+  background-color: #e7cdb0;
+  border: 2px solid #d8c1a6;
+  overflow: hidden;
+}
+
+.lexie__hands-cont .hand .finger.finger1 {
+  left: 38%;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+.lexie__hands-cont .hand .finger.finger2 {
+  left: 50%;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+
+.lexie__hands-cont .hand .finger__knuckle {
+  height: 2%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #d8c1a6;
+}
+
+.lexie__hands-cont .hand .finger__knuckle.knuckle1 {
+  bottom: 8%;
+  width: 50%;
+}
+
+.lexie__hands-cont .hand .finger__knuckle.knuckle2 {
+  bottom: 15%;
+  width: 60%;
+}
+
+.lexie .cat__body-cont {
+  width: 100%;
+  height: 100%;
+}
+
+.lexie .cat__body-cont .cat__body {
   width: 41%;
   height: 31%;
   border-radius: 50%;
   top: 61%;
 }
 
-.lexie .cat__body.marble__body {
+.lexie .cat__body-cont .cat__body.marble__body {
   background-color: #131313;
   left: 61%;
 }
 
-.lexie .cat__body.pearl__body {
+.lexie .cat__body-cont .cat__body.pearl__body {
   background-color: #ececec;
   left: -2%;
 }
