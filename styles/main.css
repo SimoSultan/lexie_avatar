@@ -231,7 +231,7 @@
   border: 2px solid white;
 }
 
-.lexie .cat__body-cont .cat__body.pearl__body .fur-color-secondary {
+.lexie .cat__body-cont .cat__body.pearl__body .fur-color-body-top {
   width: 55%;
   height: 35%;
   border-radius: 50%;
@@ -241,14 +241,24 @@
   background: radial-gradient(circle, #8f5e36 3%, #a17557 31%, #ececec 60%);
 }
 
-.lexie .cat__body-cont .cat__body.pearl__body .fur-color-tertiary {
+.lexie .cat__body-cont .cat__body.pearl__body .fur-color-body-bottom {
   width: 50%;
   height: 20%;
   border-radius: 50%;
   top: 0%;
   left: 10%;
   background: #262020;
-  background: linear-gradient(164deg, #262020 29%, white 83%);
+  background: linear-gradient(164deg, #2c1f16 29%, white 83%);
+}
+
+.lexie .cat__body-cont .cat__body.pearl__body .fur-color-head-bottom {
+  width: 20%;
+  height: 40%;
+  border-radius: 50%;
+  right: 22%;
+  top: 75%;
+  background: #a17557;
+  background: radial-gradient(circle, #63432e 3%, #8d6245 10%, rgba(236, 236, 236, 0.8) 50%);
 }
 
 .cat {

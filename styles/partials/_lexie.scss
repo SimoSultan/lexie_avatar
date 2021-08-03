@@ -224,7 +224,7 @@
                 left: -2%;
                 border: 2px solid $pearl-fur-border;
                 
-                .fur-color-secondary {
+                .fur-color-body-top {
                     width: 55%;
                     height: 35%;
                     border-radius: 50%;
@@ -234,14 +234,24 @@
                     background: radial-gradient(circle, rgba(143,94,54,1) 3%, rgba(161,117,87,1) 31%, rgba(236,236,236,1) 60%);
                 }
 
-                .fur-color-tertiary {
+                .fur-color-body-bottom {
                     width: 50%;
                     height: 20%;
                     border-radius: 50%;
                     top: 0%;
                     left: 10%;
                     background: rgb(38,32,32);
-                    background: linear-gradient(164deg, rgba(38,32,32,1) 29%, rgba(255,255,255,1) 83%);
+                    background: linear-gradient(164deg, rgb(44, 31, 22) 29%, rgba(255,255,255,1) 83%);
+                }
+
+                .fur-color-head-bottom {
+                    width: 20%;
+                    height: 40%;
+                    border-radius: 50%;
+                    right: 22%;
+                    top: 75%;
+                    background: rgb(161,117,87);
+                    background: radial-gradient(circle, rgb(99, 67, 46) 3%, rgb(141, 98, 69) 10%, rgba(236, 236, 236, 0.8) 50%);
                 }
             }
         }
