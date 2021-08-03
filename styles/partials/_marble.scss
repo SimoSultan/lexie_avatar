@@ -8,11 +8,12 @@
 
     .fur-color {
         background-color: $marble-fur;
+        &__alt {
+            background-color: $marble-fur-alt;
+        }
     }
 
-    .fur-color-alt {
-        background-color: $marble-fur-alt;
-    }
+    
 
     &__head {
         left: 50%;

@@ -169,7 +169,7 @@
         border-radius: 50%;
         overflow: hidden;
 
-        .shirt {
+        .shirt-cont {
             width: 90%;
             height: 45%;
             border-radius: $lexie-body-shape;
@@ -180,7 +180,7 @@
             border: $lexie-shirt-trim;
             overflow: hidden;
 
-            &-neck {
+            .shirt-neck {
                 width: 40%;
                 height: 40%;
                 border-radius: 50%;
@@ -204,7 +204,20 @@
 
     }
 
-
+    .cat__body {
+        width: 41%;
+        height: 31%;
+        border-radius: 50%;
+        top: 61%;
+        &.marble__body {
+            background-color: $marble-fur-alt;
+            left: 61%;
+        }
+        &.pearl__body {
+            background-color: $pearl-fur-alt;
+            left: -2%;
+        }
+    }
 
 }
 

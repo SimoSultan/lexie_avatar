@@ -170,7 +170,7 @@
   overflow: hidden;
 }
 
-.lexie__body-cont .shirt {
+.lexie__body-cont .shirt-cont {
   width: 90%;
   height: 45%;
   border-radius: 50% 50% 50% 50%/34% 34% 0% 0%;
@@ -183,7 +183,7 @@
   overflow: hidden;
 }
 
-.lexie__body-cont .shirt-neck {
+.lexie__body-cont .shirt-cont .shirt-neck {
   width: 40%;
   height: 40%;
   border-radius: 50%;
@@ -195,7 +195,7 @@
   border: 3px solid #b6b3b3;
 }
 
-.lexie__body-cont .shirt-neck-necklace {
+.lexie__body-cont .shirt-cont .shirt-neck-necklace {
   border: 3px solid #f8f8f8;
   border-radius: 48%;
   width: 58%;
@@ -204,6 +204,23 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   top: -60%;
+}
+
+.lexie .cat__body {
+  width: 41%;
+  height: 31%;
+  border-radius: 50%;
+  top: 61%;
+}
+
+.lexie .cat__body.marble__body {
+  background-color: #131313;
+  left: 61%;
+}
+
+.lexie .cat__body.pearl__body {
+  background-color: #ececec;
+  left: -2%;
 }
 
 .cat {
@@ -437,16 +454,6 @@
           transform: translate(-50%);
 }
 
-.cat__body {
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-}
-
 .marble {
   top: 33%;
   width: 50%;
@@ -458,7 +465,7 @@
   background-color: #0e0e0e;
 }
 
-.marble .fur-color-alt {
+.marble .fur-color__alt {
   background-color: #131313;
 }
 
@@ -505,7 +512,7 @@
   background-color: #f1f1f1;
 }
 
-.pearl .fur-color-alt {
+.pearl .fur-color__alt {
   background-color: #ececec;
 }
 
