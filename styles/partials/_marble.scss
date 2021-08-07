@@ -16,6 +16,29 @@
     &__head {
         left: 50%;
         border: 2px solid $marble-fur-border;
+        &-copy {
+            width: 100%;
+            height: 100%;
+            border-radius: $cat-head-shape;
+            background-color: transparent;
+            overflow: hidden;
+        
+            &-white-fur {
+                width: 66%;
+                height: 50%;
+                // border-radius: 50% ;
+                border-radius: 54% 50% 0% 0% / 47% 80% 0% 0% ;
+                background-color: rgb(250, 248, 248);
+                bottom: -4%;
+                left: 50%;
+                transform: translate(-50%);
+                // box-shadow: inset 0px 0px 20px 3px rgba(0, 0, 0, 0.199);
+            }
+            &-tan-fur-nose {
+    
+            }
+        }
+
     }
 
     &__eye-color {

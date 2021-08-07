@@ -142,6 +142,7 @@
             top: 15%;
             background-color: $lexie-ear-outer-color;
             border-radius: $lexie-ear-shape;
+            // box-shadow: 0px 3px 20px 10px rgba(0, 0, 0, 0.192);
 
             .ear-inner {
                 width: 54%;
@@ -180,6 +181,7 @@
             transform: translate(-50%);
             border: $lexie-shirt-trim;
             overflow: hidden;
+            // box-shadow: 0px -2px 15px 10px rgba(0, 0, 0, 0.274);
 
             .shirt-neck {
                 width: 35%;
@@ -214,19 +216,21 @@
             border-radius: 50%;
             top: 65%;
             overflow: hidden;
+            box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.158);
 
             &.marble__body {
                 background-color: $marble-fur-alt;
                 left: 61%;
                 border: 2px solid $marble-fur-border;
                 .fur-color-head-bottom {
-                    width: 30%;
+                    width: 55%;
                     height: 70%;
                     border-radius: 50%;
-                    left: 18%;
-                    top: 45%;
-                    background: rgb(161,117,87);
-                    background: radial-gradient(circle, rgb(255, 253, 251) 3%, rgba(20, 20, 20, 0.8) 50%);
+                    left: 10%;
+                    top: 40%;
+                    background: rgb(240, 240, 240);
+                    box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.13);
+                    // background: radial-gradient(circle, rgb(255, 253, 251) 3%, rgba(20, 20, 20, 0.8) 50%);
                 }
             }
 
@@ -262,7 +266,8 @@
                     right: 22%;
                     top: 70%;
                     background: rgb(161,117,87);
-                    background: radial-gradient(circle, rgb(99, 67, 46) 3%, rgb(141, 98, 69) 10%, rgba(236, 236, 236, 0.8) 50%);
+                    box-shadow: inset 0px 0px 20px 20px rgba(255, 255, 255, 0.705);
+                    // background: radial-gradient(circle, rgb(99, 67, 46) 3%, rgb(141, 98, 69) 10%, rgba(236, 236, 236, 0.8) 50%);
                 }
             }
         }

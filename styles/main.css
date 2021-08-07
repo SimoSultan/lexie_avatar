@@ -207,6 +207,8 @@
   border-radius: 50%;
   top: 65%;
   overflow: hidden;
+  -webkit-box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.158);
+          box-shadow: 0px 1px 3px 3px rgba(0, 0, 0, 0.158);
 }
 
 .lexie .cat__body-cont .cat__body.marble__body {
@@ -216,13 +218,14 @@
 }
 
 .lexie .cat__body-cont .cat__body.marble__body .fur-color-head-bottom {
-  width: 30%;
+  width: 55%;
   height: 70%;
   border-radius: 50%;
-  left: 18%;
-  top: 45%;
-  background: #a17557;
-  background: radial-gradient(circle, #fffdfb 3%, rgba(20, 20, 20, 0.8) 50%);
+  left: 10%;
+  top: 40%;
+  background: #f0f0f0;
+  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.13);
 }
 
 .lexie .cat__body-cont .cat__body.pearl__body {
@@ -258,7 +261,8 @@
   right: 22%;
   top: 70%;
   background: #a17557;
-  background: radial-gradient(circle, #63432e 3%, #8d6245 10%, rgba(236, 236, 236, 0.8) 50%);
+  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(255, 255, 255, 0.705);
+          box-shadow: inset 0px 0px 20px 20px rgba(255, 255, 255, 0.705);
 }
 
 .cat {
@@ -270,37 +274,42 @@
   top: 43%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 60%;
-  height: 37%;
-  border-radius: 52% 48% 48% 52%/42% 42% 58% 58%;
+  width: 55%;
+  height: 35%;
+  border-radius: 51% 48% 54% 54%/29% 29% 71% 71%;
+  -webkit-box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.144);
+          box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.144);
 }
 
 .cat__eyes-cont {
-  width: 100%;
-  height: 15%;
-  top: 32%;
+  width: 50%;
+  height: 20%;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .cat__eyes-cont .cat-eye {
-  width: 13%;
-  height: 75%;
+  width: 32%;
+  height: 76%;
 }
 
 .cat__eyes-cont .cat-eye-left {
-  left: 28%;
+  left: 0;
   border-radius: 40% 59% 25% 62%/27% 80% 16% 83%;
 }
 
 .cat__eyes-cont .cat-eye-right {
-  left: 59%;
+  right: 0;
   border-radius: 40% 59% 25% 62%/27% 80% 16% 83%;
   -webkit-transform: scale(-1, 1);
           transform: scale(-1, 1);
 }
 
 .cat__eyes-cont .cat-eye-pupil {
-  height: 70%;
-  width: 25%;
+  height: 64%;
+  width: 22%;
   border-radius: 50%;
   top: 15%;
   left: 50%;
@@ -308,11 +317,22 @@
           transform: translate(-50%);
 }
 
+.cat__eyes-cont .cat-eye-pupil .pupil-shine {
+  width: 50%;
+  height: 22%;
+  border-radius: 50%;
+  background-color: white;
+  left: 0%;
+  top: -5%;
+}
+
 .cat__whiskers-cont {
-  width: 110%;
+  width: 120%;
   height: 30%;
-  top: 45%;
-  left: -5%;
+  top: 52%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .cat__whiskers-cont .cat-whisker-left {
@@ -330,14 +350,23 @@
 }
 
 .cat__whiskers-cont .cat-whisker {
-  height: 1px;
+  height: 1.5%;
+}
+
+.cat__whiskers-cont .cat-whisker .cat-whisker-dot {
+  width: 2px;
+  height: 2px;
+  right: 0;
+  top: -50%;
+  border-radius: 50%;
+  background-color: grey;
 }
 
 .cat__whiskers-cont .whisker-top {
   top: 25%;
   -webkit-transform: rotate(8deg);
           transform: rotate(8deg);
-  width: 80%;
+  width: 85%;
   left: -2%;
 }
 
@@ -345,13 +374,13 @@
   top: 40%;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
-  width: 82%;
+  width: 87%;
   left: -8%;
 }
 
 .cat__whiskers-cont .whisker-middle {
   top: 45%;
-  width: 90%;
+  width: 95%;
   left: -1%;
 }
 
@@ -359,7 +388,7 @@
   top: 55%;
   -webkit-transform: rotate(-4deg);
           transform: rotate(-4deg);
-  width: 88%;
+  width: 93%;
   left: -7%;
 }
 
@@ -367,7 +396,7 @@
   top: 68%;
   -webkit-transform: rotate(-8deg);
           transform: rotate(-8deg);
-  width: 86%;
+  width: 91%;
   left: -9%;
 }
 
@@ -403,39 +432,48 @@
 }
 
 .cat__mouth-cont {
-  width: 30%;
-  height: 10%;
-  top: 64%;
+  width: 50%;
+  height: 50%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
 
 .cat__mouth-cont .cat-mouth {
-  width: 100%;
+  width: 58%;
   height: 30%;
-  left: 50%;
-  top: 20%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+  border-radius: 65% 65% 67% 67%/0% 0% 87% 100%;
+  top: 24%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.438);
+}
+
+.cat__mouth-cont .cat-mouth.cat-mouth-left {
+  background-color: transparent;
+  left: -8%;
+}
+
+.cat__mouth-cont .cat-mouth.cat-mouth-right {
+  background-color: transparent;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  right: -8%;
 }
 
 .cat__ear-cont {
   height: 40%;
   width: 100%;
-  top: -28%;
+  top: -30%;
 }
 
 .cat__ear-cont .cat-ear-outer-left {
-  left: -8%;
-  width: 40%;
-  height: 132%;
+  left: -16%;
+  width: 50%;
+  height: 140%;
   -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
           clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-  -webkit-transform: rotate(-22deg);
-          transform: rotate(-22deg);
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
   border-radius: 50px;
 }
 
@@ -457,9 +495,10 @@
 }
 
 .cat__ear-cont .cat-ear-outer-right {
-  right: -5%;
-  width: 40%;
-  height: 132%;
+  right: -12%;
+  top: -10%;
+  width: 50%;
+  height: 140%;
   -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
           clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
   -webkit-transform: rotate(20deg);
@@ -510,6 +549,25 @@
 .marble__head {
   left: 50%;
   border: 2px solid black;
+}
+
+.marble__head-copy {
+  width: 100%;
+  height: 100%;
+  border-radius: 51% 48% 54% 54%/29% 29% 71% 71%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.marble__head-copy-white-fur {
+  width: 66%;
+  height: 50%;
+  border-radius: 54% 50% 0% 0% / 47% 80% 0% 0%;
+  background-color: #faf8f8;
+  bottom: -4%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .marble__eye-color {
@@ -647,5 +705,17 @@ body {
 
 .layer7 {
   z-index: 7;
+}
+
+.layer8 {
+  z-index: 8;
+}
+
+.layer9 {
+  z-index: 9;
+}
+
+.layer10 {
+  z-index: 10;
 }
 /*# sourceMappingURL=main.css.map */
