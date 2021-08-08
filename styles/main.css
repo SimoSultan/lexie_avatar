@@ -20,7 +20,7 @@
 .lexie__eye-brows-cont {
   width: 100%;
   height: 15%;
-  top: 20%;
+  top: 22%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont {
@@ -137,8 +137,58 @@
   height: 40%;
   background: white;
   background: radial-gradient(circle, white 21%, #f0f0f0 78%);
-  top: 0%;
-  left: 45%;
+  top: -4%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash {
+  width: 15px;
+  height: 2px;
+  background-color: black;
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash-left-1 {
+  left: 10%;
+  top: 25%;
+  -webkit-transform: rotate(37deg);
+          transform: rotate(37deg);
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash-left-2 {
+  top: 20%;
+  left: 15%;
+  -webkit-transform: rotate(37deg);
+          transform: rotate(37deg);
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash-left-3 {
+  top: 13%;
+  left: 20%;
+  -webkit-transform: rotate(37deg);
+          transform: rotate(37deg);
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash-right-1 {
+  right: 10%;
+  top: 25%;
+  -webkit-transform: rotate(-37deg);
+          transform: rotate(-37deg);
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash-right-2 {
+  top: 20%;
+  right: 15%;
+  -webkit-transform: rotate(-37deg);
+          transform: rotate(-37deg);
+}
+
+.lexie__eyes-cont .eye-cont .eye-lash-right-3 {
+  top: 13%;
+  right: 20%;
+  -webkit-transform: rotate(-37deg);
+          transform: rotate(-37deg);
 }
 
 .lexie__hair-forehead-cont {
