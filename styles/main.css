@@ -20,7 +20,7 @@
 .lexie__eye-brows-cont {
   width: 100%;
   height: 15%;
-  top: 22%;
+  top: 20%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont {
@@ -72,45 +72,79 @@
 }
 
 .lexie__eyes-cont .eye-cont {
-  width: 35%;
-  height: 45%;
-  top: 30%;
+  width: 30%;
+  height: 40%;
+  top: 18%;
   overflow: hidden;
 }
 
 .lexie__eyes-cont .eye-cont-left {
-  left: 10%;
+  left: 13%;
 }
 
 .lexie__eyes-cont .eye-cont-right {
-  right: 10%;
+  right: 13%;
 }
 
 .lexie__eyes-cont .eye-cont .eye-background {
-  background-color: brown;
+  background: white;
+  background: radial-gradient(circle, white 21%, #f0f0f0 78%);
   width: 70%;
   height: 90%;
-  border-radius: 50%;
+  border-radius: 100% 100% 37% 37%/100% 100% 100% 100%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
+  bottom: 0;
 }
 
 .lexie__eyes-cont .eye-cont .eye-foreground {
   background-color: #e7cdb0;
-  width: 75%;
-  height: 80%;
+  width: 100%;
+  height: 70%;
   border-radius: 50%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  top: 13%;
+  bottom: -60%;
+}
+
+.lexie__eyes-cont .eye-cont .iris {
+  width: 50px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #156115;
+  left: 50%;
+  bottom: 8%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-box-shadow: inset 0px 0px 25px 7px rgba(0, 0, 0, 0.514);
+          box-shadow: inset 0px 0px 25px 7px rgba(0, 0, 0, 0.514);
+  overflow: hidden;
+}
+
+.lexie__eyes-cont .eye-cont .iris .pupil {
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.849);
+  left: 60%;
+  top: -5%;
+}
+
+.lexie__eyes-cont .eye-cont .iris .pupil-shine {
+  width: 30%;
+  height: 40%;
+  background: white;
+  background: radial-gradient(circle, white 21%, #f0f0f0 78%);
+  top: 0%;
+  left: 45%;
 }
 
 .lexie__hair-forehead-cont {
   width: 100%;
   height: 30%;
-  top: -2%;
+  top: 0%;
 }
 
 .lexie__hair-forehead-cont .hair-forehead-middle {
@@ -123,26 +157,25 @@
 }
 
 .lexie__hair-forehead-cont .hair-forehead-top {
-  width: 41%;
-  height: 47%;
+  height: 49%;
   background-color: #e7cdb0;
   border-radius: 50%;
-  top: 15%;
-  margin-left: 1%;
+  top: 16%;
+  margin-left: 1.2%;
 }
 
 .lexie__hair-forehead-cont .hair-forehead-top-left {
-  left: 15%;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
+  width: 43%;
+  left: 12%;
+  -webkit-transform: rotate(-4deg);
+          transform: rotate(-4deg);
 }
 
 .lexie__hair-forehead-cont .hair-forehead-top-right {
-  -webkit-transform: rotate(5deg);
-          transform: rotate(5deg);
-  right: 16%;
-  width: 40% !important;
-  top: 16% !important;
+  -webkit-transform: rotate(4deg);
+          transform: rotate(4deg);
+  right: 13.5%;
+  width: 40%;
 }
 
 .lexie .hair-outside-svg {

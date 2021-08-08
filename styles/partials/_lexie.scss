@@ -20,7 +20,7 @@
     &__eye-brows-cont {
         width: 100%;
         height: 15%;
-        top: 22%;
+        top: 20%;
         .eye-brow-cont {
             width: 25%;
             height: 45%;
@@ -57,70 +57,69 @@
     &__eyes-cont {
         width: 100%;
         height: 50%;
-        // border: 1px solid green;
         left: 50%;
         transform: translate(-50%);
         top: 21%;
         .eye-cont {
-            // height: 90px;
-            // width: 120px;
-            // top: 25%;
-            // border: 1px solid $lexie-neck-shadow-color;
-            // background: rgb(255,255,255);
-            // background: rgb(255,255,255);
-            // background: radial-gradient(circle, rgba(255,255,255,1) 21%, rgba(240,240,240,1) 78%);
-            // background:#e0b686;
-            width: 35%;
-            height: 45%;
-            top: 30%;
+            width: 30%;
+            height: 40%;
+            top: 18%;
             overflow: hidden;
             &-left {
-                // transform: rotate(-20deg);
-                // border-radius: 0 90% 0 100%;
-                left: 10%;
-                // border: 1px solid blue;
+                left: 13%;
             }
             &-right {
-                // border-radius: 90% 0 100% 0;
-                // transform: rotate(20deg);
-                // border: 1px solid red;
-                right: 10%;
+                right: 13%;
             }
             .eye-background {
-                background-color: brown;
+                background: rgb(255,255,255);
+                background: radial-gradient(circle, rgba(255,255,255,1) 21%, rgba(240,240,240,1) 78%);
                 width: 70%;
                 height: 90%;
-                border-radius: 50%;
+                border-radius: $lexie-eye-shape;
                 left: 50%;
                 transform: translate(-50%);
+                bottom: 0;
             }
             .eye-foreground {
                 background-color: $lexie-skin-color;
-                width: 75%;
-                height: 80%;
+                width: 100%;
+                height: 70%;
                 border-radius: 50%;
                 left: 50%;
                 transform: translate(-50%);
-                top: 13%;
+                bottom: -60%;
             }
-            // .iris {
-            //     width: 50px;
-            //     height: 50px;
-            //     border-radius: 50%;
-            //     background-color: green;
-            //     left: 50%;
-            //     top: 23%;
-            //     transform: translate(-50%);
-            //     .pupil {
-            //         width: 20px;
-            //         height: 20px;
-            //         border-radius: 50%;
-            //         background-color: black;
-            //         left: 50%;
-            //         transform: translate(-50%);
-            //         top: 30%;
-            //     }
-            // }
+            .iris {
+                width: 50px;
+                height: 65px;
+                border-radius: 50%;
+                background-color: $lexie-iris-color;
+                left: 50%;
+                bottom: 8%;
+                transform: translate(-50%);
+                box-shadow: inset 0px 0px 25px 7px rgba(0, 0, 0, 0.514);
+                overflow: hidden;
+
+                .pupil {
+                    width: 20px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background-color: rgba(0, 0, 0, 0.849);
+                    left: 60%;
+                    // transform: translate(-50%);
+                    top: -5%;
+                    &-shine {
+                        width: 30%;
+                        height: 40%;
+                        background: rgb(255,255,255);
+                        background: radial-gradient(circle, rgba(255,255,255,1) 21%, rgba(240,240,240,1) 78%);
+                        top: 0%;
+                        left: 45%;
+
+                    }
+                }
+            }
         }
     }
 
@@ -128,7 +127,7 @@
         width: 100%;
         height: 30%;
         // border: 1px solid black;
-        top: -2%;
+        top: 0%;
         .hair-forehead {
 
             &-middle {
@@ -139,21 +138,21 @@
                 background-color: $lexie-hair-color;
             }
             &-top {
-                width: 41%;
-                height: 47%;
+                height: 49%;
                 background-color: $lexie-skin-color;
                 border-radius: 50%;
-                top: 15%;
-                margin-left: 1%;
+                top: 16%;
+                margin-left: 1.2%;
                 &-left {
-                    left: 15%;
-                    transform: rotate(-5deg);
+                    width: 43%;
+                    left: 12%;
+                    transform: rotate(-4deg);
                 }
                 &-right {
-                    transform: rotate(5deg);
-                    right: 16%;
-                    width: 40% !important;
-                    top: 16% !important;
+                    transform: rotate(4deg);
+                    right: 13.5%;
+                    width: 40%;
+                    // top: 16% !important;
                 }
             }
         }
