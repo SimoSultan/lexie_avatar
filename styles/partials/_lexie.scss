@@ -14,21 +14,7 @@
         height: 59.3%;
         background: $lexie-skin-color;
         border-radius: $lexie-head-shape;
-
-        .hair-inside-cont {
-            width: 100%;
-            height: 100%;
-
-            // .hair-inside {
-            //     width: 79%;
-            //     height: 31%;
-            //     left: 50%;
-            //     border-radius: 50%;
-            //     margin-top: -15%;
-            //     transform: translate(-50%);
-            //     background-color: $lexie-hair-color-dark;
-            // }
-        }
+        // overflow: hidden;
     }
 
     &__eye-brows-cont {
@@ -41,13 +27,13 @@
             top: 30%;
             overflow: hidden;
             &-left {
-                left: 12%;
+                left: 10%;
             }
             &-right {
-                right: 12%;
+                right: 10%;
             }
             .eye-brow-background {
-                background-color: brown;
+                background-color: $lexie-eye-brow-color;
                 width: 70%;
                 height: 90%;
                 border-radius: 50%;
@@ -61,7 +47,7 @@
                 border-radius: 50%;
                 left: 50%;
                 transform: translate(-50%);
-                top: 17%;
+                top: 19%;
             }
         }
     }
@@ -89,14 +75,14 @@
             &-left {
                 // transform: rotate(-20deg);
                 // border-radius: 0 90% 0 100%;
-                left: 12%;
+                left: 10%;
                 // border: 1px solid blue;
             }
             &-right {
                 // border-radius: 90% 0 100% 0;
                 // transform: rotate(20deg);
                 // border: 1px solid red;
-                right: 12%;
+                right: 10%;
             }
             .eye-background {
                 background-color: brown;
@@ -133,6 +119,42 @@
             //         top: 30%;
             //     }
             // }
+        }
+    }
+
+    &__hair-forehead-cont {
+        width: 100%;
+        height: 30%;
+        // border: 1px solid black;
+        top: -2%;
+        .hair-forehead {
+
+            &-middle {
+                left: 50%;
+                transform: translate(-50%);
+                height: 30%;
+                width: 80%;
+                background-color: $lexie-hair-color;
+            }
+            &-top {
+                width: 41%;
+                height: 47%;
+                background-color: $lexie-skin-color;
+                // background-color: black;
+                border-radius: 50%;
+                top: 15%;
+                margin-left: 1%;
+                &-left {
+                    left: 15%;
+                    transform: rotate(-5deg);
+                }
+                &-right {
+                    transform: rotate(5deg);
+                    right: 16.5%;
+                    width: 35% !important;
+                    top: 16% !important;
+                }
+            }
         }
     }
 

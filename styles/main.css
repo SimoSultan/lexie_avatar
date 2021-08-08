@@ -14,12 +14,7 @@
   width: 48.3%;
   height: 59.3%;
   background: #e7cdb0;
-  border-radius: 47% 47% 60% 60%/51% 51% 54% 54%;
-}
-
-.lexie__head .hair-inside-cont {
-  width: 100%;
-  height: 100%;
+  border-radius: 47% 47% 60% 60%/60% 60% 54% 54%;
 }
 
 .lexie__eye-brows-cont {
@@ -36,15 +31,15 @@
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-left {
-  left: 12%;
+  left: 10%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-right {
-  right: 12%;
+  right: 10%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont .eye-brow-background {
-  background-color: brown;
+  background-color: #523617;
   width: 70%;
   height: 90%;
   border-radius: 50%;
@@ -61,7 +56,7 @@
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  top: 17%;
+  top: 19%;
 }
 
 .lexie__eyes-cont {
@@ -81,11 +76,11 @@
 }
 
 .lexie__eyes-cont .eye-cont-left {
-  left: 12%;
+  left: 10%;
 }
 
 .lexie__eyes-cont .eye-cont-right {
-  right: 12%;
+  right: 10%;
 }
 
 .lexie__eyes-cont .eye-cont .eye-background {
@@ -107,6 +102,44 @@
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   top: 13%;
+}
+
+.lexie__hair-forehead-cont {
+  width: 100%;
+  height: 30%;
+  top: -2%;
+}
+
+.lexie__hair-forehead-cont .hair-forehead-middle {
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  height: 30%;
+  width: 80%;
+  background-color: #724C20;
+}
+
+.lexie__hair-forehead-cont .hair-forehead-top {
+  width: 41%;
+  height: 47%;
+  background-color: #e7cdb0;
+  border-radius: 50%;
+  top: 15%;
+  margin-left: 1%;
+}
+
+.lexie__hair-forehead-cont .hair-forehead-top-left {
+  left: 15%;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.lexie__hair-forehead-cont .hair-forehead-top-right {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  right: 16.5%;
+  width: 35% !important;
+  top: 16% !important;
 }
 
 .lexie .hair-outside-svg {

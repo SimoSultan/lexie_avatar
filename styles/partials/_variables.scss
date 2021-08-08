@@ -2,7 +2,7 @@
 $lexie-skin-color: #e7cdb0;
 $lexie-skin-color-border: #d8c1a6;
 $lexie-neck-skin-color: #e4caac;
-$lexie-head-shape: 47% 47% 60% 60% / 51% 51% 54% 54%;
+$lexie-head-shape: 47% 47% 60% 60% / 60% 60% 54% 54%;
 $lexie-neck-shape: 0% 0% 50% 50% / 0% 0% 37% 37%;
 $lexie-neck-shadow-shape: 0% 0% 50% 50% / 0% 0% 30% 30%;
 $lexie-neck-shadow-color: #ceb79b;
@@ -23,12 +23,8 @@ $lexie-shirt-trim-width: 3px;
 $lexie-shirt-trim-color: rgb(158, 158, 158);
 $lexie-shirt-trim: $lexie-shirt-trim-width solid $lexie-shirt-trim-color;
 $lexie-shirt-trim: 5px solid $lexie-shirt-trim-color;
-$lexie-hair-color-dark: rgb(54, 35, 14);
-// $lexie-hair-color-light: brown;
-// $lexie-hair-outside-top-shape: 40% 40% 0 0;
-// $lexie-hair-outside-bottom-shape: polygon(0 0, 100% 0, 100% 100%, 58% 100%, 61.5% 61%, 39% 63%, 43% 100%, 0 100%);
-// $lexie-hair-outside-curl-color-dark: #803434;
-// $lexie-hair-outside-curl-color-light: #8b3d3d;
+$lexie-hair-color: #724C20;
+$lexie-eye-brow-color: #523617;
 
 // CATS
 $cat-eye-color: rgb(209, 95, 60);
