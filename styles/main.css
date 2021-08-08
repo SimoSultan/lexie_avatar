@@ -27,8 +27,8 @@
   width: 25%;
   height: 45%;
   top: 30%;
-  -webkit-transform: rotate(-3deg);
-          transform: rotate(-3deg);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-left {
@@ -37,8 +37,8 @@
 
 .lexie__eye-brows-cont .eye-brow-cont-right {
   right: 15%;
-  -webkit-transform: rotate(3deg) rotateY(180deg);
-          transform: rotate(3deg) rotateY(180deg);
+  -webkit-transform: rotate(5deg) rotateY(180deg);
+          transform: rotate(5deg) rotateY(180deg);
 }
 
 .lexie__eye-brows-cont .eye-brow-cont .eye-brow-background {

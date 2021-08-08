@@ -25,13 +25,13 @@
             width: 25%;
             height: 45%;
             top: 30%;
-            transform: rotate(-3deg);
+            transform: rotate(-5deg);
             &-left {
                 left: 15%;
             }
             &-right {
                 right: 15%;
-                transform: rotate(3deg) rotateY(180deg);
+                transform: rotate(5deg) rotateY(180deg);
             }
             .eye-brow-background {
                 background-color: $lexie-eye-brow-color;
