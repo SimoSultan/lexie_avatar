@@ -26,19 +26,25 @@
         background: $pearl-whisker-color;
     }
 
-    &__nose-color {
+    &__nose {
         background: $pearl-nose-color;
     }
 
-    &__ear-outer-color {
+    &__ear-outer {
         background: $pearl-ear-outer-color;
+        &.cat-ear-outer-left .cat-ear-inner {
+            box-shadow: $pearl-ear-inner-color-blend;
+        }
+        &.cat-ear-outer-right .cat-ear-inner {
+            box-shadow: $pearl-ear-inner-color-blend;
+        }
     }
 
-    &__ear-inner-color {
+    &__ear-inner {
         background: $pearl-ear-inner-color;
     }
 
-    &__mouth-color {
+    &__mouth {
         background: $pearl-mouth-color;
     }
 }

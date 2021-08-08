@@ -131,8 +131,8 @@
         top: 45%;
 
         .cat-nose {
-            height: 30%;
-            width: 50%;
+            width: 80%;
+            height: 40%;
             left: 50%;
             transform: translate(-50%);
             top: 50%;
@@ -140,13 +140,13 @@
 
             &:after {
                 content: '';
-                width: 3px;
-                height: 80%;
-                background-color: red;
+                width: 1.5px;
+                height: 70%;
                 left: 50%;
                 transform: translate(-50%);
                 top: 100%;
-                background-color: $cat-nose-mouth-joiner;
+                background: rgb(78,78,78);
+                background: linear-gradient(180deg, rgba(78,78,78,1) 21%, rgba(180,176,176,1) 78%);
             }
         }
     }
@@ -159,21 +159,29 @@
         transform: translate(-50%);
 
         .cat-mouth {
-            width: 58%;
-            height: 30%;
+            width: 45%;
+            height: 25%;
             border-radius: $cat-mouth-shape;
             top: 24%;
             border-bottom: 2px solid rgba(0, 0, 0, 0.438);            
             // box-shadow: 3px 5px 5px 0px rgba(0, 0, 0, 0.349);            
             &.cat-mouth-left {
                 background-color: transparent;
-                left: -8%;
+                left: 5%;
             }
             &.cat-mouth-right {
                 background-color: transparent;
                 transform: rotateY(180deg);
-                right: -8%;
+                right: 5%;
             }
+        }
+        .cat-mouth-bottom {
+            width: 50%;
+            height: 15%;
+            background-color: red;
+            bottom: 52%;
+            left: 50%;
+            transform: translate(-50%);
         }
         
     }

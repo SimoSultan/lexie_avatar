@@ -25,23 +25,51 @@
         
             &-white-fur {
                 width: 66%;
-                height: 50%;
+                height: 40%;
                 // border-radius: 50% ;
                 border-radius: 54% 50% 0% 0% / 47% 80% 0% 0% ;
-                background-color: rgb(250, 248, 248);
-                bottom: -4%;
+                background-color: $marble-fur-secondary;
+                bottom: 0%;
                 left: 50%;
                 transform: translate(-50%);
                 // box-shadow: inset 0px 0px 20px 3px rgba(0, 0, 0, 0.199);
             }
             &-tan-fur-nose {
-    
+                width: 16%;
+                height: 95%;
+                bottom: 0;
+                background-color: $marble-fur-tertiary;
+                left: 50%;
+                transform: translate(-50%);
+                border-radius: 50%;
+                box-shadow: $marble-fur-tertiary-blend;
+            }
+
+            &-tan-fur-right-eye {
+                width: 15%;
+                height: 55%;
+                bottom: 9%;
+                background-color: $marble-fur-tertiary;
+                left: 60%;
+                transform: rotate(64deg);
+                border-radius: 50%;
+                box-shadow: $marble-fur-tertiary-blend;
+            }
+
+            &-tan-fur-right-ear {
+                width: 25%;
+                height: 60%;
+                top: -47%;
+                background-color: $marble-fur-tertiary;
+                left: 48%;
+                transform: rotate(-10deg);
+                border-radius: 50%;
+                box-shadow: $marble-fur-tertiary-blend;
             }
         }
-
     }
 
-    &__eye-color {
+    &__eye {
         background-color: $marble-eye-color;
     }
 
@@ -53,19 +81,34 @@
         background: $marble-whisker-color;
     }
 
-    &__nose-color {
+    &__nose {
         background: $marble-nose-color;
+        border: $marble-nose-border;
     }
 
-    &__ear-outer-color {
+    &__ear-outer {
         background: $marble-ear-outer-color;
+        &.cat-ear-outer-left .cat-ear-inner {
+            box-shadow: inset 0px 20px 20px 8px rgba(0, 0, 0, 0.76);
+        }
+        &.cat-ear-outer-right .cat-ear-inner {
+            box-shadow: inset 0px 30px 20px 3px rgba(226, 176, 110, 0.521);
+        }
+        .tan-fur-ear-outer {
+            width: 70%;
+            height: 95%;
+            top: 0;
+            border-radius: 50%;
+            background-color: $marble-fur-tertiary;
+            box-shadow: $marble-fur-tertiary-blend;
+        }
     }
 
-    &__ear-inner-color {
+    &__ear-inner {
         background: $marble-ear-inner-color;
     }
 
-    &__mouth-color {
+    &__mouth {
         background: $marble-mouth-color;
     }
 }

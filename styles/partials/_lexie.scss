@@ -192,6 +192,7 @@
                 left: 50%;
                 transform: translate(-50%);
                 border: $lexie-shirt-trim;
+                border: $lexie-shirt-trim;
 
                 // &-necklace {
                 //     border: 3px solid rgb(248, 248, 248);
@@ -222,7 +223,7 @@
                 background-color: $marble-fur-alt;
                 left: 61%;
                 border: 2px solid $marble-fur-border;
-                .fur-color-head-bottom {
+                .white-fur-head-bottom {
                     width: 55%;
                     height: 70%;
                     border-radius: 50%;
@@ -231,6 +232,17 @@
                     background: rgb(240, 240, 240);
                     box-shadow: inset 0px 0px 20px 20px rgba(0, 0, 0, 0.13);
                     // background: radial-gradient(circle, rgb(255, 253, 251) 3%, rgba(20, 20, 20, 0.8) 50%);
+                }
+
+                .tan-fur-body-back {
+                    width: 10%;
+                    height: 30%;
+                    top: -5%;
+                    background-color: $marble-fur-tertiary;
+                    right: 23%;
+                    transform: rotate(-50deg);
+                    border-radius: 50%;
+                    box-shadow: inset 0px 0px 20px 7px rgba(0, 0, 0, 0.788);
                 }
             }
 
