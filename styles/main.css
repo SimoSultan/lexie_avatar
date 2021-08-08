@@ -22,6 +22,93 @@
   height: 100%;
 }
 
+.lexie__eye-brows-cont {
+  width: 100%;
+  height: 15%;
+  top: 22%;
+}
+
+.lexie__eye-brows-cont .eye-brow-cont {
+  width: 35%;
+  height: 45%;
+  top: 30%;
+  overflow: hidden;
+}
+
+.lexie__eye-brows-cont .eye-brow-cont-left {
+  left: 12%;
+}
+
+.lexie__eye-brows-cont .eye-brow-cont-right {
+  right: 12%;
+}
+
+.lexie__eye-brows-cont .eye-brow-cont .eye-brow-background {
+  background-color: brown;
+  width: 70%;
+  height: 90%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.lexie__eye-brows-cont .eye-brow-cont .eye-brow-foreground {
+  background-color: #e7cdb0;
+  width: 75%;
+  height: 80%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 17%;
+}
+
+.lexie__eyes-cont {
+  width: 100%;
+  height: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 21%;
+}
+
+.lexie__eyes-cont .eye-cont {
+  width: 35%;
+  height: 45%;
+  top: 30%;
+  overflow: hidden;
+}
+
+.lexie__eyes-cont .eye-cont-left {
+  left: 12%;
+}
+
+.lexie__eyes-cont .eye-cont-right {
+  right: 12%;
+}
+
+.lexie__eyes-cont .eye-cont .eye-background {
+  background-color: brown;
+  width: 70%;
+  height: 90%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.lexie__eyes-cont .eye-cont .eye-foreground {
+  background-color: #e7cdb0;
+  width: 75%;
+  height: 80%;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  top: 13%;
+}
+
 .lexie .hair-outside-svg {
   width: 95%;
   height: 100%;

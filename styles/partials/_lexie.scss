@@ -31,6 +31,111 @@
         }
     }
 
+    &__eye-brows-cont {
+        width: 100%;
+        height: 15%;
+        top: 22%;
+        .eye-brow-cont {
+            width: 35%;
+            height: 45%;
+            top: 30%;
+            overflow: hidden;
+            &-left {
+                left: 12%;
+            }
+            &-right {
+                right: 12%;
+            }
+            .eye-brow-background {
+                background-color: brown;
+                width: 70%;
+                height: 90%;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+            }
+            .eye-brow-foreground {
+                background-color: $lexie-skin-color;
+                width: 75%;
+                height: 80%;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                top: 17%;
+            }
+        }
+    }
+
+    &__eyes-cont {
+        width: 100%;
+        height: 50%;
+        // border: 1px solid green;
+        left: 50%;
+        transform: translate(-50%);
+        top: 21%;
+        .eye-cont {
+            // height: 90px;
+            // width: 120px;
+            // top: 25%;
+            // border: 1px solid $lexie-neck-shadow-color;
+            // background: rgb(255,255,255);
+            // background: rgb(255,255,255);
+            // background: radial-gradient(circle, rgba(255,255,255,1) 21%, rgba(240,240,240,1) 78%);
+            // background:#e0b686;
+            width: 35%;
+            height: 45%;
+            top: 30%;
+            overflow: hidden;
+            &-left {
+                // transform: rotate(-20deg);
+                // border-radius: 0 90% 0 100%;
+                left: 12%;
+                // border: 1px solid blue;
+            }
+            &-right {
+                // border-radius: 90% 0 100% 0;
+                // transform: rotate(20deg);
+                // border: 1px solid red;
+                right: 12%;
+            }
+            .eye-background {
+                background-color: brown;
+                width: 70%;
+                height: 90%;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+            }
+            .eye-foreground {
+                background-color: $lexie-skin-color;
+                width: 75%;
+                height: 80%;
+                border-radius: 50%;
+                left: 50%;
+                transform: translate(-50%);
+                top: 13%;
+            }
+            // .iris {
+            //     width: 50px;
+            //     height: 50px;
+            //     border-radius: 50%;
+            //     background-color: green;
+            //     left: 50%;
+            //     top: 23%;
+            //     transform: translate(-50%);
+            //     .pupil {
+            //         width: 20px;
+            //         height: 20px;
+            //         border-radius: 50%;
+            //         background-color: black;
+            //         left: 50%;
+            //         transform: translate(-50%);
+            //         top: 30%;
+            //     }
+            // }
+        }
+    }
+
     .hair-outside-svg {
         width: 95%;
         height: 100%;
