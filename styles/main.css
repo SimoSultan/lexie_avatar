@@ -30,15 +30,15 @@
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-left {
-  -webkit-transform: rotate(3deg);
-          transform: rotate(3deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
   left: 12%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-right {
   right: 12%;
-  -webkit-transform: rotate(-3deg) rotateY(180deg);
-          transform: rotate(-3deg) rotateY(180deg);
+  -webkit-transform: rotate(3deg) rotateY(180deg);
+          transform: rotate(3deg) rotateY(180deg);
 }
 
 .lexie__eye-brows-cont .eye-brow-cont .eye-brow-background {
@@ -111,7 +111,7 @@
   width: 50px;
   height: 65px;
   border-radius: 50%;
-  background-color: #156115;
+  background-color: #246324;
   left: 50%;
   bottom: 8%;
   -webkit-transform: translate(-50%);
@@ -149,6 +149,7 @@
   height: 30px;
   border-radius: 50%;
   background-color: black;
+  opacity: 0.6;
 }
 
 .lexie__eyes-cont .eye-cont .eye-lash-left {
@@ -171,7 +172,7 @@
 }
 
 .lexie__eyes-cont .eye-cont .eye-lash-left-2 {
-  bottom: 10%;
+  bottom: 7%;
   left: 12%;
 }
 
@@ -195,7 +196,7 @@
 }
 
 .lexie__eyes-cont .eye-cont .eye-lash-right-2 {
-  bottom: 10%;
+  bottom: 7%;
   right: 12%;
 }
 
@@ -371,7 +372,7 @@
   height: 20%;
   border-radius: 50%;
   background-color: transparent;
-  border: 3px solid white;
+  border: 3px solid #d1b517;
   bottom: -5%;
   left: 26%;
 }
@@ -460,17 +461,19 @@
   border: 2px solid white;
 }
 
-.lexie .cat__body-cont .cat__body.pearl__body .fur-color-body-top {
+.lexie .cat__body-cont .cat__body.pearl__body .fur-color-body-bottom {
   width: 55%;
   height: 35%;
   border-radius: 50%;
   top: 20%;
   left: -15%;
-  background: #8f5e36;
-  background: radial-gradient(circle, #8f5e36 3%, #a17557 31%, #ececec 60%);
+  background: #cc7a43;
+  opacity: 0.7;
+  -webkit-box-shadow: inset 0px 0px 15px 8px rgba(255, 255, 255, 0.87);
+          box-shadow: inset 0px 0px 15px 8px rgba(255, 255, 255, 0.87);
 }
 
-.lexie .cat__body-cont .cat__body.pearl__body .fur-color-body-bottom {
+.lexie .cat__body-cont .cat__body.pearl__body .fur-color-body-top {
   width: 50%;
   height: 20%;
   border-radius: 50%;
@@ -486,9 +489,10 @@
   border-radius: 50%;
   right: 22%;
   top: 70%;
-  background: #a17557;
-  -webkit-box-shadow: inset 0px 0px 20px 20px rgba(255, 255, 255, 0.705);
-          box-shadow: inset 0px 0px 20px 20px rgba(255, 255, 255, 0.705);
+  background: #cc7a43;
+  opacity: 0.7;
+  -webkit-box-shadow: inset 0px 0px 20px 12px rgba(255, 255, 255, 0.705);
+          box-shadow: inset 0px 0px 20px 12px rgba(255, 255, 255, 0.705);
 }
 
 .cat {
@@ -703,15 +707,33 @@
   top: -30%;
 }
 
-.cat__ear-cont .cat-ear-outer-left {
-  left: -16%;
+.cat__ear-cont .cat-ear-outer {
   width: 50%;
   height: 140%;
   -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
           clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.cat__ear-cont .cat-ear-outer .inner-ear-foreground {
+  width: 100%;
+  height: 90%;
+  border-radius: 50%;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #120605;
+  opacity: 0.7;
+}
+
+.cat__ear-cont .cat-ear-outer-left {
+  left: -16%;
   -webkit-transform: rotate(-30deg);
           transform: rotate(-30deg);
   border-radius: 50px;
+  overflow: hidden;
 }
 
 .cat__ear-cont .cat-ear-outer-left .cat-ear-inner {
@@ -731,16 +753,18 @@
   border-radius: 48px 32px;
 }
 
+.cat__ear-cont .cat-ear-outer-left .inner-ear-foreground {
+  background-color: #120605;
+  opacity: 0.95;
+  -webkit-box-shadow: inset 0px 0px 5px 0px white;
+          box-shadow: inset 0px 0px 5px 0px white;
+}
+
 .cat__ear-cont .cat-ear-outer-right {
   right: -12%;
   top: -10%;
-  width: 50%;
-  height: 140%;
-  -webkit-clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
-          clip-path: polygon(50% 0%, 8% 100%, 92% 100%);
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
-  border-radius: 50px;
 }
 
 .cat__ear-cont .cat-ear-outer-right .cat-ear-inner {
@@ -757,6 +781,11 @@
 
 .cat__ear-cont .cat-ear-outer-right .cat-ear-inner .cat-ear-inner-blend {
   border-radius: 22px 43px;
+}
+
+.cat__ear-cont .cat-ear-outer-right .inner-ear-foreground {
+  background-color: #cc7a43;
+  opacity: 0.7;
 }
 
 .cat__ear-cont .cat-ear-inner-blend {
@@ -911,21 +940,132 @@
   border: 2px solid white;
 }
 
-.pearl__eye-color {
+.pearl__head-copy {
+  width: 100%;
+  height: 100%;
+  border-radius: 51% 48% 54% 54%/29% 29% 71% 71%;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.pearl__head-copy-tan-fur-nose {
+  width: 25%;
+  height: 12%;
+  bottom: 32%;
+  background-color: #cc7a43;
+  opacity: 0.4;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  border-radius: 35%;
+  -webkit-box-shadow: inset 0px 0px 10px 2px rgba(255, 255, 255, 0.884);
+          box-shadow: inset 0px 0px 10px 2px rgba(255, 255, 255, 0.884);
+}
+
+.pearl__head-copy-tan-fur-right-head {
+  width: 60%;
+  height: 60%;
+  right: -15%;
+  top: -15%;
+  background-color: #cc7a43;
+  opacity: 0.7;
+  border-radius: 40%;
+  -webkit-box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+          box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+}
+
+.pearl__head-copy-tan-fur-left-head {
+  width: 40%;
+  height: 35%;
+  left: -14%;
+  top: 15%;
+  background-color: #cc7a43;
+  border-radius: 40%;
+  opacity: 0.6;
+  -webkit-box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+          box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+}
+
+.pearl__head-copy-tan-fur-right-eye {
+  width: 10%;
+  height: 17%;
+  right: 35%;
+  top: 25%;
+  background-color: #cc7a43;
+  border-radius: 40%;
+  opacity: 0.9;
+  -webkit-box-shadow: inset 0px 0px 6px 8px rgba(255, 255, 255, 0.685);
+          box-shadow: inset 0px 0px 6px 8px rgba(255, 255, 255, 0.685);
+}
+
+.pearl__head-copy-black-fur-top-left-head {
+  width: 50%;
+  height: 50%;
+  left: -10%;
+  top: -15%;
+  background-color: #120605;
+  border-radius: 40%;
+  -webkit-box-shadow: inset 0px 0px 15px 5px rgba(255, 255, 255, 0.685);
+          box-shadow: inset 0px 0px 15px 5px rgba(255, 255, 255, 0.685);
+}
+
+.pearl__head-copy-black-fur-top-middle-head {
+  width: 16%;
+  height: 20%;
+  left: 39%;
+  top: -7%;
+  background-color: #120605;
+  border-radius: 35%;
+  -webkit-box-shadow: inset 0px 0px 15px 2px rgba(255, 255, 255, 0.685);
+          box-shadow: inset 0px 0px 15px 2px rgba(255, 255, 255, 0.685);
+}
+
+.pearl__head-copy-black-fur-left-eye {
+  width: 8%;
+  height: 19%;
+  left: 34%;
+  top: 24%;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+  background-color: #120605;
+  border-radius: 35%;
+  -webkit-box-shadow: inset 0px 0px 8px 2px rgba(255, 255, 255, 0.685);
+          box-shadow: inset 0px 0px 8px 2px rgba(255, 255, 255, 0.685);
+}
+
+.pearl__eye {
   background-color: #958466;
 }
 
-.pearl__pupil-color {
+.pearl__pupil {
   background-color: #15151e;
 }
 
-.pearl__whisker-color {
+.pearl__whisker {
   background: -webkit-gradient(linear, left top, right top, from(white), color-stop(20%, lightgray));
   background: linear-gradient(90deg, white 0%, lightgray 20%);
 }
 
 .pearl__nose {
-  background: #8d6c64;
+  background: #d6834c;
+  overflow: hidden;
+}
+
+.pearl__nose-dots {
+  width: 100%;
+  height: 100%;
+}
+
+.pearl__nose-dots .nose-dot {
+  opacity: 0.6;
+  background-color: #120605;
+  border-radius: 50%;
+}
+
+.pearl__nose-dots .nose-dot.dot1 {
+  width: 40%;
+  height: 80%;
+  left: -10%;
 }
 
 .pearl__ear-outer {
@@ -933,13 +1073,13 @@
 }
 
 .pearl__ear-outer.cat-ear-outer-left .cat-ear-inner {
-  -webkit-box-shadow: inset 0px 30px 20px 3px rgba(226, 176, 110, 0.521);
-          box-shadow: inset 0px 30px 20px 3px rgba(226, 176, 110, 0.521);
+  -webkit-box-shadow: inset 0px 0px 20px 15px rgba(216, 159, 84, 0.699);
+          box-shadow: inset 0px 0px 20px 15px rgba(216, 159, 84, 0.699);
 }
 
 .pearl__ear-outer.cat-ear-outer-right .cat-ear-inner {
-  -webkit-box-shadow: inset 0px 30px 20px 3px rgba(226, 176, 110, 0.521);
-          box-shadow: inset 0px 30px 20px 3px rgba(226, 176, 110, 0.521);
+  -webkit-box-shadow: inset 0px 0px 20px 15px rgba(216, 159, 84, 0.699);
+          box-shadow: inset 0px 0px 20px 15px rgba(216, 159, 84, 0.699);
 }
 
 .pearl__ear-inner {

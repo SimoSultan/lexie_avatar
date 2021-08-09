@@ -12,22 +12,119 @@
     &__head {
         left: 50%;
         border: 2px solid $pearl-fur-border;
+        &-copy {
+            width: 100%;
+            height: 100%;
+            border-radius: $cat-head-shape;
+            background-color: transparent;
+            overflow: hidden;
+            &-tan-fur-nose {
+                width: 25%;
+                height: 12%;
+                bottom: 32%;
+                background-color: $pearl-fur-secondary;
+                opacity: 0.4;
+                left: 50%;
+                transform: translate(-50%);
+                border-radius: 35%;
+                box-shadow: inset 0px 0px 10px 2px rgba(255, 255, 255, 0.884);
+            }
+            &-tan-fur-right-head {
+                width: 60%;
+                height: 60%;
+                right: -15%;
+                top: -15%;
+                background-color: $pearl-fur-secondary;
+                opacity: 0.7;
+                border-radius: 40%;
+                box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+            }
+            &-tan-fur-left-head {
+                width: 40%;
+                height: 35%;
+                left: -14%;
+                top: 15%;
+                background-color: $pearl-fur-secondary;
+                border-radius: 40%;
+                opacity: 0.6;
+                box-shadow: inset 0px 0px 20px 10px rgba(255, 255, 255, 0.685);
+            }
+            &-tan-fur-right-eye {
+                width: 10%;
+                height: 17%;
+                right: 35%;
+                top: 25%;
+                background-color: $pearl-fur-secondary;
+                border-radius: 40%;
+                opacity: 0.9;
+                box-shadow: inset 0px 0px 6px 8px rgba(255, 255, 255, 0.685);
+            }
+            &-black-fur-top-left-head {
+                width: 50%;
+                height: 50%;
+                left: -10%;
+                top: -15%;
+                background-color: $pearl-fur-tertiary;
+                border-radius: 40%;
+                box-shadow: inset 0px 0px 15px 5px rgba(255, 255, 255, 0.685);
+            }
+            &-black-fur-top-middle-head {
+                width: 16%;
+                height: 20%;
+                left: 39%;
+                top: -7%;
+                background-color: $pearl-fur-tertiary;
+                border-radius: 35%;
+                box-shadow: inset 0px 0px 15px 2px rgba(255, 255, 255, 0.685);
+            }
+            &-black-fur-left-eye {
+                width: 8%;
+                height: 19%;
+                left: 34%;
+                top: 24%;
+                transform: rotate(-10deg);
+                background-color: $pearl-fur-tertiary;
+                border-radius: 35%;
+                box-shadow: inset 0px 0px 8px 2px rgba(255, 255, 255, 0.685);
+            }
+        }
     }
 
-    &__eye-color {
+    &__eye {
         background-color: $pearl-eye-color;
     }
 
-    &__pupil-color {
+    &__pupil {
         background-color: $pearl-pupil-color;
     }
 
-    &__whisker-color {
+    &__whisker {
         background: $pearl-whisker-color;
     }
 
     &__nose {
         background: $pearl-nose-color;
+        overflow: hidden;
+        &-dots {
+            width: 100%;
+            height: 100%;
+            .nose-dot {
+                opacity: 0.6;
+                background-color: $pearl-fur-tertiary;
+                border-radius: 50%;
+                &.dot1 {
+                    width: 40%;
+                    height: 80%;
+                    left: -10%;
+                }
+                // &.dot2 {
+                //     width: 10%;
+                //     height: 15%;
+                //     bottom: 5%;
+                //     right: 30%;
+                // }
+            }
+        }
     }
 
     &__ear-outer {
