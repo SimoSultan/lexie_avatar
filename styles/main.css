@@ -19,33 +19,33 @@
 
 .lexie__eye-brows-cont {
   width: 100%;
-  height: 15%;
-  top: 22%;
+  height: 55%;
+  top: 7%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont {
-  width: 25%;
+  width: 30%;
   height: 45%;
   top: 30%;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-left {
-  left: 15%;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  left: 12%;
 }
 
 .lexie__eye-brows-cont .eye-brow-cont-right {
-  right: 15%;
-  -webkit-transform: rotate(5deg) rotateY(180deg);
-          transform: rotate(5deg) rotateY(180deg);
+  right: 12%;
+  -webkit-transform: rotate(-3deg) rotateY(180deg);
+          transform: rotate(-3deg) rotateY(180deg);
 }
 
 .lexie__eye-brows-cont .eye-brow-cont .eye-brow-background {
   background-color: #684b2a;
   width: 100%;
-  height: 90%;
-  border-radius: 100% 67% 51% 0%/75% 34% 0% 100%;
+  height: 60%;
+  border-radius: 99% 97% 0% 0%/100% 35% 100% 14%;
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
@@ -55,11 +55,9 @@
   background-color: #e7cdb0;
   width: 115%;
   height: 80%;
-  border-radius: 50% 50% 0 0;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  top: 22%;
+  border-radius: 99% 97% 0% 0%/100% 35% 100% 14%;
+  left: -11%;
+  top: 9%;
 }
 
 .lexie__eyes-cont {
@@ -194,14 +192,13 @@
 .lexie__hair-forehead-cont {
   width: 100%;
   height: 30%;
-  top: 0%;
 }
 
 .lexie__hair-forehead-cont .hair-forehead-middle {
   left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  height: 30%;
+  height: 35%;
   width: 80%;
   background-color: #724C20;
 }
@@ -209,23 +206,23 @@
 .lexie__hair-forehead-cont .hair-forehead-top {
   height: 49%;
   background-color: #e7cdb0;
-  border-radius: 50%;
+  border-radius: 70% 40% 0 0;
   top: 16%;
-  margin-left: 1.2%;
+  margin-left: 0;
 }
 
 .lexie__hair-forehead-cont .hair-forehead-top-left {
   width: 43%;
-  left: 12%;
+  left: 11.5%;
   -webkit-transform: rotate(-4deg);
           transform: rotate(-4deg);
 }
 
 .lexie__hair-forehead-cont .hair-forehead-top-right {
-  -webkit-transform: rotate(4deg);
-          transform: rotate(4deg);
-  right: 13.5%;
-  width: 40%;
+  -webkit-transform: rotate(4deg) rotateY(180deg);
+          transform: rotate(4deg) rotateY(180deg);
+  right: 11.5%;
+  width: 43%;
 }
 
 .lexie .hair-outside-svg {
