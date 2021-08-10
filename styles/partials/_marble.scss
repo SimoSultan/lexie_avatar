@@ -33,7 +33,7 @@
                 transform: translate(-50%);
             }
             &-tan-fur-nose {
-                width: 16%;
+                width: 12%;
                 height: 95%;
                 bottom: 0;
                 background-color: $marble-fur-tertiary;
@@ -81,7 +81,7 @@
 
     &__nose {
         background: $marble-nose-color;
-        border: $marble-nose-border;
+        // border: $marble-nose-border;
     }
 
     &__ear-outer {

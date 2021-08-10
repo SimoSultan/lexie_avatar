@@ -129,6 +129,7 @@
         left: 50%;
         transform: translate(-50%);
         top: 45%;
+        // border: 1px solid blue;
 
         .cat-nose {
             width: 80%;
@@ -148,6 +149,10 @@
                 background: rgb(78,78,78);
                 background: linear-gradient(180deg, rgba(78,78,78,1) 21%, rgba(180,176,176,1) 78%);
             }
+        }
+        .triangle {
+            left: 29.5%;
+            top: 53%;
         }
     }
 
@@ -268,4 +273,36 @@
         // see lexie partial at end of file
     }
 
+}
+
+
+
+.triangle {
+	position: relative;
+	background-color: $pearl-fur-secondary;
+	text-align: left;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  15px;
+	height: 15px;
+	border-top-right-radius: 50%;
+    transform: rotate(90deg);
+}
+
+.triangle {
+	transform: rotate(-120deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }

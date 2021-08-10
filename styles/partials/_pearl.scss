@@ -21,11 +21,10 @@
             &-tan-fur-nose {
                 width: 25%;
                 height: 12%;
-                bottom: 32%;
+                bottom: 29%;
                 background-color: $pearl-fur-secondary;
                 opacity: 0.4;
-                left: 50%;
-                transform: translate(-50%);
+                left: 35%;
                 border-radius: 35%;
                 box-shadow: inset 0px 0px 10px 2px rgba(255, 255, 255, 0.884);
             }
@@ -104,25 +103,17 @@
 
     &__nose {
         background: $pearl-nose-color;
-        overflow: hidden;
-        &-dots {
-            width: 100%;
-            height: 100%;
+        &.triangle {
             .nose-dot {
                 opacity: 0.6;
                 background-color: $pearl-fur-tertiary;
                 border-radius: 50%;
                 &.dot1 {
-                    width: 40%;
-                    height: 80%;
-                    left: -10%;
+                    width: 60%;
+                    height: 100%;
+                    left: 31%;
+                    top: 8%;
                 }
-                // &.dot2 {
-                //     width: 10%;
-                //     height: 15%;
-                //     bottom: 5%;
-                //     right: 30%;
-                // }
             }
         }
     }

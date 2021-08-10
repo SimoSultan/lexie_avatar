@@ -14,7 +14,7 @@
   width: 48.3%;
   height: 59.3%;
   background: #e7cdb0;
-  border-radius: 45% 45% 60% 60%/60% 60% 54% 54%;
+  border-radius: 43% 43% 60% 60%/60% 60% 54% 54%;
 }
 
 .lexie__eye-brows-cont {
@@ -218,7 +218,7 @@
   height: 49%;
   background-color: #e7cdb0;
   border-radius: 70% 40% 0 0;
-  top: 16%;
+  top: 14%;
 }
 
 .lexie__hair-forehead-cont .hair-forehead-top-left {
@@ -662,6 +662,11 @@
   background: linear-gradient(180deg, #4e4e4e 21%, #b4b0b0 78%);
 }
 
+.cat__nose-cont .triangle {
+  left: 29.5%;
+  top: 53%;
+}
+
 .cat__mouth-cont {
   width: 50%;
   height: 50%;
@@ -797,6 +802,44 @@
           transform: translate(-50%);
 }
 
+.triangle {
+  position: relative;
+  background-color: #cc7a43;
+  text-align: left;
+}
+
+.triangle:before,
+.triangle:after {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+
+.triangle,
+.triangle:before,
+.triangle:after {
+  width: 15px;
+  height: 15px;
+  border-top-right-radius: 50%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.triangle {
+  -webkit-transform: rotate(-120deg) skewX(-30deg) scale(1, 0.866);
+          transform: rotate(-120deg) skewX(-30deg) scale(1, 0.866);
+}
+
+.triangle:before {
+  -webkit-transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+          transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+}
+
+.triangle:after {
+  -webkit-transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+          transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+
 .marble {
   top: 33%;
   width: 50%;
@@ -837,7 +880,7 @@
 }
 
 .marble__head-copy-tan-fur-nose {
-  width: 16%;
+  width: 12%;
   height: 95%;
   bottom: 0;
   background-color: #e2b06e;
@@ -889,8 +932,7 @@
 }
 
 .marble__nose {
-  background: #b67c31;
-  border: 1px solid brown;
+  background: #e09779;
 }
 
 .marble__ear-outer {
@@ -951,12 +993,10 @@
 .pearl__head-copy-tan-fur-nose {
   width: 25%;
   height: 12%;
-  bottom: 32%;
+  bottom: 29%;
   background-color: #cc7a43;
   opacity: 0.4;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  left: 35%;
   border-radius: 35%;
   -webkit-box-shadow: inset 0px 0px 10px 2px rgba(255, 255, 255, 0.884);
           box-shadow: inset 0px 0px 10px 2px rgba(255, 255, 255, 0.884);
@@ -1047,25 +1087,20 @@
 }
 
 .pearl__nose {
-  background: #d6834c;
-  overflow: hidden;
+  background: #e09779;
 }
 
-.pearl__nose-dots {
-  width: 100%;
-  height: 100%;
-}
-
-.pearl__nose-dots .nose-dot {
+.pearl__nose.triangle .nose-dot {
   opacity: 0.6;
   background-color: #120605;
   border-radius: 50%;
 }
 
-.pearl__nose-dots .nose-dot.dot1 {
-  width: 40%;
-  height: 80%;
-  left: -10%;
+.pearl__nose.triangle .nose-dot.dot1 {
+  width: 60%;
+  height: 100%;
+  left: 31%;
+  top: 8%;
 }
 
 .pearl__ear-outer {
@@ -1092,6 +1127,7 @@
 
 body {
   background: white;
+  margin-top: 10%;
 }
 
 .css-illustration *,
